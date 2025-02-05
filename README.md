@@ -1,13 +1,20 @@
 # Machine Learning Notes & Code
 This repository contains structured **Machine Learning notes**, **hands-on coding implementations**, and **projects** from the **Machine Learning Specialization by Andrew Ng**.
 
-## Structure
+## Table of Contents
 
 ### 1. Supervised Machine Learning
-- [Introduction to Machine Learning](1_Supervised_Learning/Introduction/Overview.md)
-  - [Overview of Machine Learning](1_Supervised_Learning/Introduction/Overview.md)
-  - [Supervised vs. Unsupervised Learning](1_Supervised_Learning/Introduction/Supervised_vs_Unsupervised.md)
-  - [Code Samples](1_Supervised_Learning/Introduction/Code_Samples/)
+- Introduction to Machine Learning
+  - Overview of Machine Learning
+      - [Machine Learning Applications](1_Supervised_Learning/Introduction/Overview.md)
+      - [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
+  - Supervised vs. Unsupervised Learning
+      - [Supervised Machine Learning Intro 1](1_Supervised_Learning/Introduction/Supervised_Learning_1.md)
+      - [Supervised Machine Learning Intro 2](1_Supervised_Learning/Introduction/Supervised_Learning_2_Classification.md)
+      - [Unsupervised Machine Learning Intro 1](1_Supervised_Learning/Introduction/Unsupervised_Learning_1.md)
+      - [Unsupervised Machine Learning Intro 2](1_Supervised_Learning/Introduction/Unsupervised_Learning_2.md)
+      - [Jupyter Notebooks](1_Supervised_Learning/Introduction/Jupyter_Notebook.md)
+
 
 - [Regression](1_Supervised_Learning/Regression/Linear_Regression.md)
   - [Linear Regression](1_Supervised_Learning/Regression/Linear_Regression.md)
