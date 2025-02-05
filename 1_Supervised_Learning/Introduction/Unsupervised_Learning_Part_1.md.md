@@ -1,4 +1,4 @@
-# Unsupervised Learning Introduction
+# Unsupervised Machine Learning Part 1
 
 ## 1. Definition of Unsupervised Learning
 - Unlike supervised learning, unsupervised learning works with data that does not have output labels (e.g., no labels like benign or malignant).
@@ -38,3 +38,8 @@
 
 ## 9. Next Steps in Learning
 - The next lesson will dive into other types of unsupervised learning algorithms and their use cases.
+
+---
+
+## Next Section
+- [Unsupervised Machine Learning Part 2](Unsupervised_Learning__Part_2.md)
