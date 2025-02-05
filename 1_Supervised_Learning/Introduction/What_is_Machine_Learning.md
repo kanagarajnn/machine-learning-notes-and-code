@@ -41,3 +41,8 @@
 ## 10. Next Steps in Learning
 - The next lesson explores **supervised and unsupervised learning** in more detail.
 - Learners will understand when to use each approach and its practical applications.
+
+---
+
+## Next Section: 
+- [Supervised Machine Learning Part 1](Supervised_Machine_Learning_Part_1.md)
