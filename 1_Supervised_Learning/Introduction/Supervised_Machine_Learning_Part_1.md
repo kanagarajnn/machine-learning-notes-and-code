@@ -49,4 +49,4 @@
 
 ---
 ## Next Section
-- [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_2.md)
+- [Supervised Machine Learning Part 2](Supervised_Machine_Learning_Part_2.md)
