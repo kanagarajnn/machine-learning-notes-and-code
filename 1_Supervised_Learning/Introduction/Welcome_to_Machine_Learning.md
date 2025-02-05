@@ -32,4 +32,4 @@ By the conclusion of this course, learners will possess a robust foundation in m
 
 ---
 ## Next Section
-- [Applications of Machine Learning](Applications_of_Machine_Learning.md)
+- ### [Applications of Machine Learning](Applications_of_Machine_Learning.md)
