@@ -24,7 +24,7 @@ Machine learning enhances multiple aspects of daily life, including:
 ## Machine Learning Defined
 Machine learning refers to the ability of computers to learn from data patterns and make intelligent decisions without explicit instructions. It forms the backbone of artificial intelligence and automation.
 
-## Course Overview and Career Impact
+## Course Overview
 - **Comprehensive Learning**: This course covers ML fundamentals and practical coding applications.
 - **Hands-On Implementation**: Participants gain real-world experience through coding exercises and projects.
 
