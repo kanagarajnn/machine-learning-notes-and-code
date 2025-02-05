@@ -6,13 +6,14 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 ### 1. Supervised Machine Learning
 - Introduction to Machine Learning
   - Overview of Machine Learning
-      - [Machine Learning Applications](1_Supervised_Learning/Introduction/Overview.md)
-      - [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
+      - [Welcome to Machine Learning](1_Supervised_Learning/Introduction/Welcome_to_Machine_Learning.md)
+      - [Applications of Machine Learning](1_Supervised_Learning/Introduction/Applications_of_Machine_Learning.md)
   - Supervised vs. Unsupervised Learning
-      - [Supervised Machine Learning Intro 1](1_Supervised_Learning/Introduction/Supervised_Learning_1.md)
-      - [Supervised Machine Learning Intro 2](1_Supervised_Learning/Introduction/Supervised_Learning_2_Classification.md)
-      - [Unsupervised Machine Learning Intro 1](1_Supervised_Learning/Introduction/Unsupervised_Learning_1.md)
-      - [Unsupervised Machine Learning Intro 2](1_Supervised_Learning/Introduction/Unsupervised_Learning_2.md)
+      - [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
+      - [Supervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_1.md)
+      - [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_2.md)
+      - [Unsupervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Unsupervised_Learning_Part_1.md)
+      - [Unsupervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Unsupervised_Learning__Part_2.md)
       - [Jupyter Notebooks](1_Supervised_Learning/Introduction/Jupyter_Notebook.md)
 
 
