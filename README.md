@@ -1,4 +1,4 @@
-# Machine Learning Notes & Code
+# Machine Learning Notes and Code
 This repository contains structured **Machine Learning notes**, **hands-on coding implementations**, and **projects**.
 
 ## Table of Contents
