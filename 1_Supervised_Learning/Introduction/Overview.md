@@ -65,5 +65,5 @@ By the conclusion of this course, learners will possess a robust foundation in m
 ---
 
 ## Next Section: 
-- [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
+- [What is Machine Learning?](What_is_Machine_Learning.md)
 
