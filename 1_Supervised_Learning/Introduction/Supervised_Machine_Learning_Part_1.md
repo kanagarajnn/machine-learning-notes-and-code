@@ -1,4 +1,4 @@
-# Supervised Learning Introduction
+# Supervised Machine Learning Part 1
 
 ## 1. Economic Impact of Machine Learning
 - 99% of economic value from machine learning today is driven by **supervised learning**.
@@ -46,3 +46,7 @@
 ## 8. Next Steps in Learning
 - The next topic explores **classification**, the second major type of supervised learning.
 - Learners will understand how classification problems differ from regression problems.
+
+---
+## Next Section
+- [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_2.md)
