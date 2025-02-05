@@ -8,7 +8,7 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
   - Overview of Machine Learning
       - [Welcome to Machine Learning](1_Supervised_Learning/Introduction/Welcome_to_Machine_Learning.md)
       - [Applications of Machine Learning](1_Supervised_Learning/Introduction/Applications_of_Machine_Learning.md)
-  - Supervised vs. Unsupervised Learning
+  - Supervised vs. Unsupervised Machine Learning
       - [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
       - [Supervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_1.md)
       - [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_2.md)
@@ -16,14 +16,13 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Unsupervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Unsupervised_Learning__Part_2.md)
       - [Jupyter Notebooks](1_Supervised_Learning/Introduction/Jupyter_Notebook.md)
 
-
-- [Regression](1_Supervised_Learning/Regression/Linear_Regression.md)
-  - [Linear Regression](1_Supervised_Learning/Regression/Linear_Regression.md)
-  - [Code Samples](1_Supervised_Learning/Regression/Code_Samples/)
-
-- [Classification](1_Supervised_Learning/Classification/Logistic_Regression.md)
-  - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression.md)
-  - [Code Samples](1_Supervised_Learning/Classification/Code_Samples/)
+  - Regression Model
+    - [Linear Regression Model Part 1](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_1.md)
+    - [Linear Regression Model Part 2](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_2.md)
+    - [Code Samples](1_Supervised_Learning/Regression/Code_Samples/)
+  - [Classification](1_Supervised_Learning/Classification/Logistic_Regression.md)
+    - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression.md)
+    - [Code Samples](1_Supervised_Learning/Classification/Code_Samples/)
 
 ---
 
