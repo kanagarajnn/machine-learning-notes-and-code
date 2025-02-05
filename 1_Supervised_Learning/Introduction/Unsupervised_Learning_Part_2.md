@@ -1,4 +1,4 @@
-# Unsupervised Learning Overview
+# Unsupervised Learning Part 2
 
 ## 1. Definition of Unsupervised Learning
 - In **unsupervised learning**, the data includes only inputs (**x**) and no labeled outputs (**y**).
@@ -29,3 +29,7 @@
 ## 7. Summary of Key Concepts
 - Unsupervised learning encompasses a variety of techniques, with clustering being one of the most prominent.
 - Additional methods such as anomaly detection and dimensionality reduction will be explored in later sections of this specialization.
+
+---
+## Next Section
+- [Jupyter Notebooks](Jupyter_Notebook.md)
