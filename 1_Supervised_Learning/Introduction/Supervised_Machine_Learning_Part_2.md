@@ -1,4 +1,4 @@
-# Classification Introduction
+# Supervised Machine Learning Part 2: Classification Introduction
 
 ## 1. Definition of Classification
 - Classification is a type of supervised learning that predicts categories rather than continuous values.
@@ -42,3 +42,7 @@
 ## 10. Next Steps
 - The next topic explores **unsupervised learning**, where models learn from **unlabeled data**.
 - Learners will understand how clustering and pattern detection work in machine learning.
+
+---
+## Next Section
+- [Unsupervised Machine Learning Part 1](Unsupervised_Learning_Part_1.md)
