@@ -49,4 +49,4 @@
 
 ---
 ## Next Section
-- [Linear Regression Model Part 1](../Regression_Model/Linear_Regression_Model_Part_1.md)
+- ### [Linear Regression Model Part 1](../Regression_Model/Linear_Regression_Model_Part_1.md)
