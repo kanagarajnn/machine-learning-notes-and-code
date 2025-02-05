@@ -1,5 +1,5 @@
 # Machine Learning Notes & Code
-This repository contains structured **Machine Learning notes**, **hands-on coding implementations**, and **projects** from the **Machine Learning Specialization by Andrew Ng**.
+This repository contains structured **Machine Learning notes**, **hands-on coding implementations**, and **projects**.
 
 ## Table of Contents
 
@@ -20,7 +20,8 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
     - [Linear Regression Model Part 1](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_1.md)
     - [Linear Regression Model Part 2](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_2.md)
     - [Code Samples](1_Supervised_Learning/Regression/Code_Samples/)
-  - [Classification](1_Supervised_Learning/Classification/Logistic_Regression.md)
+      
+  - Classification
     - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression.md)
     - [Code Samples](1_Supervised_Learning/Classification/Code_Samples/)
 
@@ -66,13 +67,6 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 
 ## Work in Progress
 This repository is continuously updated as I progress through the Machine Learning Specialization. Contributions and suggestions are welcome.
-
----
-
-## Resources
-- [Machine Learning Specialization on Coursera](https://www.coursera.org/specializations/machine-learning)
-- [Pattern Recognition and Machine Learning by Christopher Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book)
-- [Awesome Machine Learning GitHub Repository](https://github.com/josephmisiti/awesome-machine-learning)
 
 ---
 
