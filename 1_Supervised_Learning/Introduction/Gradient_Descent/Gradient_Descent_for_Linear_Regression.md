@@ -56,4 +56,4 @@ Gradient Descent is a key optimization technique for training **Linear Regressio
 
 ---
 ## Next Section
-  - ### [Running Gradient Descent](1_Supervised_Learning/Introduction/Gradient_Descent/Running_Gradient_Descent.md)
+  - ### [Running Gradient Descent](Running_Gradient_Descent.md)
