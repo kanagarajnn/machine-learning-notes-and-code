@@ -54,9 +54,17 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Motivation for Classification](1_Supervised_Learning/Classification/Logistic_Regression/Motivation.md)
       - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression/Logistic_Regression.md)
       - [Decision Boundary](1_Supervised_Learning/Classification/Logistic_Regression/Decision_Boundary.md)
-    - Cost Function for  Logistic Regression
+    - Cost Function for Logistic Regression
+      - [Cost Function for Logistic Regression](1_Supervised_Learning/Classification/Cost_Function/Cost_Function.md)
+      - [Simplified Cost Function](1_Supervised_Learning/Classification/Cost_Function/Simplified_Cost_Function.md)
     - Gradient Descent for Logistic Regression
+      - [Gradient Descent Implementation](1_Supervised_Learning/Classification/Gradient_Descent/Gradient_Descent_Implementation.md)
     - The Problem of Overfitting
+      - [Problem of Overfitting](1_Supervised_Learning/Classification/Overfitting/Problem_of_Overfitting.md)
+      - [Addressing Overfitting](1_Supervised_Learning/Classification/Overfitting/Addressing_Overfitting.md)
+      - [Cost Function with Regularization](1_Supervised_Learning/Classification/Overfitting/Regularization.md)
+      - [Regularized Linear Regression](1_Supervised_Learning/Classification/Overfitting/Regularized_Linear_Regression.md)
+      - [Regularized Logistic Regression](1_Supervised_Learning/Classification/Overfitting/Regularized_Logistic_Regression.md)
 
 ---
 
