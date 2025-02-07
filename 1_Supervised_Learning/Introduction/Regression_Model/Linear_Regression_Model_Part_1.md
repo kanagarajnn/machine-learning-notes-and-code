@@ -6,6 +6,16 @@
 - It fits a **straight line** to the data to make predictions based on past observations.
 - **Real-World Example**: Financial analysts at **Goldman Sachs** use linear regression to predict stock market trends based on historical data.
 
+## Supervised Learning Explained
+Supervised learning is like having a **teacher guide you while you learn**. In this case, the "teacher" is a dataset that contains examples with **known answers**. For example, if you want to predict the price of a house based on its size, you would use a dataset that includes **various house sizes and their corresponding prices**. 
+
+**Linear regression** is a method that helps draw a **straight line** through this data to make predictions. Imagine you have a scatter of dots on a graph representing houses; linear regression helps you find the **best straight line** that fits those dots, allowing you to estimate the price of a house just by knowing its size.
+
+### **Visualizing Linear Regression**
+Think of it like trying to **find the best path through a forest of trees (data points)**. The straight line you draw is like a trail that helps you navigate through the trees to reach your destination (the predicted price). 
+- If you measure a **house that is 1,250 square feet**, you can follow your trail to see that it might sell for around **$220,000**.
+- This is how **linear regression works in supervised learning!**
+
 ## House Price Prediction Example
 - Predicting house prices based on square footage is a classic regression problem.
 - **Dataset Used**: Houses in Portland, with size (in square feet) as input and price (in thousands of dollars) as output.
@@ -59,11 +69,6 @@
 - **y^(i)**: The **i-th** output example (house price).
 - **m**: The total number of training examples.
 - **Example**: In healthcare, researchers train regression models using patient data (X) and disease progression (Y) to predict patient outcomes.
-
-## Next Steps
-- The next topic will explain how to **train the model** using gradient descent and cost functions.
-- The algorithm will learn from the dataset to make **accurate predictions**.
-- **Upcoming Case Study**: Predicting car resale prices using historical sales data from **Kelley Blue Book**.
 
 ---
 ## Next Section
