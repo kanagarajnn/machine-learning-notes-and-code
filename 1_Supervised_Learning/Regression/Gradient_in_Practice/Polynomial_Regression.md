@@ -123,4 +123,4 @@ This allows us to **fit a curve** rather than a straight line.
 ---
 
 ## Next Section
-- 
+- ### [Motivation for Classification](../../Classification/Logistic_Regression/Motivation.md)
