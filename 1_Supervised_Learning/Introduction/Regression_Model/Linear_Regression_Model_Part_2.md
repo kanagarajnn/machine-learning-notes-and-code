@@ -77,4 +77,4 @@
 
 ---
 ## Next Section
-- ### [Cost Function and Model Optimization](Cost_Function.md)
+- ### [Cost Function Formula](Cost_Function_Formula.md)
