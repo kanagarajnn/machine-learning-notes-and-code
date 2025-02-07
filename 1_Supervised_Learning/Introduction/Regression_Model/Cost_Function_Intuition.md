@@ -47,6 +47,8 @@
 - This ensures the model fits the training data with minimal error.
 - **Industry Use Case**: Financial institutions use cost function optimization to improve loan approval prediction models.
 
+---
+
 ## Understanding the Cost Function in Linear Regression (In Simple Terms)
 ### **A Scorecard for Model Performance**
 In the context of linear regression, the cost function acts like a **scorecard** that evaluates how well our model is performing. Imagine you're **throwing darts at a target**—each time you throw, you aim to hit as close to the bullseye as possible. Similarly, the cost function measures how far off our predictions (darts) are from the actual target values (true values). The goal is to adjust our aim (the model’s parameters) so that our darts land closer to the bullseye, minimizing the cost function.
@@ -64,9 +66,6 @@ If we visualize our model as a straight line and our dataset as scattered points
 
 By minimizing the cost function, we improve the accuracy of our machine learning models and enhance their **real-world decision-making power**.
 
-## Next Steps
-- The next topic will **visualize the cost function in 3D**, showing how **both w and b affect J(w, b)**.
-- We will explore **gradient descent**, an algorithm to efficiently minimize the cost function.
 
 ---
 ## Next Section
