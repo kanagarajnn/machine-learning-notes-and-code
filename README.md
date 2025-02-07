@@ -51,6 +51,9 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
        
 - Classification
     - Classification with Logistic Regression
+      - [Motivation for Classification](1_Supervised_Learning/Classification/Logistic_Regression/Motivation.md)
+      - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression/Logistic_Regression.md)
+      - [Decision Boundary](1_Supervised_Learning/Classification/Logistic_Regression/Decision_Boundary.md)
     - Cost Function for  Logistic Regression
     - Gradient Descent for Logistic Regression
     - The Problem of Overfitting
