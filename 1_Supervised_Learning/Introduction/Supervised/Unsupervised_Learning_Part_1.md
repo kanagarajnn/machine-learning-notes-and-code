@@ -50,4 +50,4 @@
 
 ---
 ## Next Section
-- ### [Unsupervised Machine Learning Part 2](Unsupervised_Machine_Learning_Part_2.md)
+- ### [Unsupervised Machine Learning Part 2](Unsupervised_Learning_Part_2.md)
