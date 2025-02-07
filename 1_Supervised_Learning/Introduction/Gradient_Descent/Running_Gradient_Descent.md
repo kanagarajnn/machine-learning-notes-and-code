@@ -60,4 +60,4 @@ These formulas ensure a **smooth descent** toward the minimum.
 
 ---
 ## Next Section
-- ### [Mutliple Features](../Multiple_Linear_Regression/Mutliple_Features.md)
+- ### [Mutliple Features](../../Regression/Multiple_Linear_Regression/Mutliple_Features.md)
