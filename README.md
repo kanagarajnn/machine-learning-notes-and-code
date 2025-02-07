@@ -6,24 +6,54 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 ### 1. Supervised Machine Learning
 - Introduction to Machine Learning
   - Overview of Machine Learning
-      - [Welcome to Machine Learning](1_Supervised_Learning/Introduction/Welcome_to_Machine_Learning.md)
-      - [Applications of Machine Learning](1_Supervised_Learning/Introduction/Applications_of_Machine_Learning.md)
+      - [Welcome to Machine Learning](1_Supervised_Learning/Introduction/Overview/Welcome_to_Machine_Learning.md)
+      - [Applications of Machine Learning](1_Supervised_Learning/Introduction/Overview/Applications_of_Machine_Learning.md)
+        
   - Supervised vs. Unsupervised Machine Learning
-      - [What is Machine Learning?](1_Supervised_Learning/Introduction/What_is_Machine_Learning.md)
-      - [Supervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_1.md)
-      - [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised_Machine_Learning_Part_2.md)
-      - [Unsupervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Unsupervised_Learning_Part_1.md)
-      - [Unsupervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Unsupervised_Learning__Part_2.md)
-      - [Jupyter Notebooks](1_Supervised_Learning/Introduction/Jupyter_Notebook.md)
+      - [What is Machine Learning?](1_Supervised_Learning/Introduction/Supervised/What_is_Machine_Learning.md)
+      - [Supervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Supervised/Supervised_Machine_Learning_Part_1.md)
+      - [Supervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised/Supervised_Machine_Learning_Part_2.md)
+      - [Unsupervised Machine Learning Part 1](1_Supervised_Learning/Introduction/Supervised/Unsupervised_Learning_Part_1.md)
+      - [Unsupervised Machine Learning Part 2](1_Supervised_Learning/Introduction/Supervised/Unsupervised_Learning__Part_2.md)
+      - [Jupyter Notebooks](1_Supervised_Learning/Introduction/Supervised/Jupyter_Notebook.md)
 
   - Regression Model
-    - [Linear Regression Model Part 1](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_1.md)
-    - [Linear Regression Model Part 2](1_Supervised_Learning/Regression_Model/Linear_Regression_Model_Part_2.md)
-    - [Code Samples](1_Supervised_Learning/Regression/Code_Samples/)
-      
-  - Classification
-    - [Logistic Regression](1_Supervised_Learning/Classification/Logistic_Regression.md)
-    - [Code Samples](1_Supervised_Learning/Classification/Code_Samples/)
+      - [Linear Regression Model Part 1](1_Supervised_Learning/Introduction/Regression_Model/Linear_Regression_Model_Part_1.md)
+      - [Linear Regression Model Part 2](1_Supervised_Learning/Introduction/Regression_Model/Linear_Regression_Model_Part_2.md)
+      - [Cost Function Formula](1_Supervised_Learning/Introduction/Regression_Model/Cost_Function_Formula.md)
+      - [Cost Function Intuition](1_Supervised_Learning/Introduction/Regression_Model/Cost_Function_Intuition.md)
+      - [Visualizing Cost Function](1_Supervised_Learning/Introduction/Regression_Model/Visualizing_Cost_Function.md)
+      - [Visualization Examples](1_Supervised_Learning/Introduction/Regression_Model/Visualization_Examples.md)
+   
+  - Train the Model with Gradient Descent
+      - [Gradient Descent](1_Supervised_Learning/Introduction/Gradient_Descent/Gradient_Descent.md)
+      - [Implementing Gradient Descent](1_Supervised_Learning/Introduction/Gradient_Descent/Implementing_Gradient_Descent.md)
+      - [Gradient Descent Intuition](1_Supervised_Learning/Introduction/Gradient_Descent/Gradient_Descent_Intuition.md)
+      - [Learning Rate](1_Supervised_Learning/Introduction/Gradient_Descent/Learning_Rate.md)
+      - [Gradient Descent for Linear Regression](1_Supervised_Learning/Introduction/Gradient_Descent/Gradient_Descent_for_Linear_Regression.md)
+      - [Running Gradient Descent](1_Supervised_Learning/Introduction/Gradient_Descent/Running_Gradient_Descent.md)
+
+
+- Regression with Multiple Input Variables
+  - Multiple Linear Regression
+      - [Mutliple Features](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Mutliple_Features.md)
+      - [Vectorization Part 1](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Vectorization_Part_1.md)
+      - [Vectorization Part 2](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Vectorization_Part_2.md)
+      - [Gradient Descent for Multiple Linear Regression](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Gradient_Descent_for_Multiple_Linear_Regression.md)
+  - Gradient Descent in Practice
+      - [Feature Scaling Part 1](1_Supervised_Learning/Regression/Gradient_in_Practice/Feature_Scaling_Part_1.md)
+      - [Feature Scaling Part 2](1_Supervised_Learning/Regression/Gradient_in_Practice/Feature_Scaling_Part_2.md)
+      - [Checking Gradient Descent for Convergence](1_Supervised_Learning/Regression/Gradient_in_Practice/Checking_Gradient_Descent_for_Convergence.md)
+      - [Choosing Learning Rate](1_Supervised_Learning/Regression/Gradient_in_Practice/Choosing_Learning_Rate.md)
+      - [Feature Engineering](1_Supervised_Learning/Regression/Gradient_in_Practice/Feature_Engineering.md)
+      - [Polynomial Regression](1_Supervised_Learning/Regression/Gradient_in_Practice/Polynomial_Regression.md)
+        
+       
+- Classification
+    - Classification with Logistic Regression
+    - Cost Function for  Logistic Regression
+    - Gradient Descent for Logistic Regression
+    - The Problem of Overfitting
 
 ---
 
@@ -70,13 +100,18 @@ This repository is continuously updated as I progress through the Machine Learni
 
 ---
 
-### Progress Tracker
-- [x] Overview of Machine Learning
-- [x] Supervised vs. Unsupervised Learning
-- [ ] Regression
-- [ ] Classification
-- [ ] Neural Networks
-- [ ] Decision Trees
-- [ ] Clustering
-- [ ] Recommender Systems
-- [ ] Reinforcement Learning
+## Progress Tracker
+  1. Supervised Machine Learning
+      - [x] Introduction to Machine Learning
+        - [x] Overview of Machine Learning
+        - [x] Supervised vs. Unsupervised Machine Learning
+        - [x] Regression Model   
+        - [x] Train the Model with Gradient Descent
+      - [x] Regression with Multiple Input Variables
+        - [x] Multiple Linear Regression
+        - [x] Gradient Descent in Practice       
+      - [ ] Classification
+        - [ ] Classification with Logistic Regression
+        - [ ] Cost Function for  Logistic Regression
+        - [ ] Gradient Descent for Logistic Regression
+        - [ ] The Problem of Overfitting
