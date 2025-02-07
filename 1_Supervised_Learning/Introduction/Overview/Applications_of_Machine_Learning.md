@@ -82,4 +82,4 @@ Machine learning is revolutionizing industries by automating processes, enhancin
 
 ---
 ## Next Section: 
-- ### [What is Machine Learning?](What_is_Machine_Learning.md)
+- ### [What is Machine Learning?](../Supervised/What_is_Machine_Learning.md)
