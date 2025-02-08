@@ -87,4 +87,4 @@ where:
 ---
 
 ## Next Section
-  - ### [Regularized Linear Regression](1_Supervised_Learning/Classification/Overfitting/Regularized_Linear_Regression.md)
+  - ### [Regularized Linear Regression](Regularized_Linear_Regression.md)
