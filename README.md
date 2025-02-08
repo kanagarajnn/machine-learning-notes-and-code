@@ -32,7 +32,7 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Learning Rate](1_Supervised_Learning/Introduction/Gradient_Descent/Learning_Rate.md)
       - [Gradient Descent for Linear Regression](1_Supervised_Learning/Introduction/Gradient_Descent/Gradient_Descent_for_Linear_Regression.md)
       - [Running Gradient Descent](1_Supervised_Learning/Introduction/Gradient_Descent/Running_Gradient_Descent.md)
-      - Python Code Doc: [`gradient_descent.md`](1_Supervised_Learning/Introduction/Gradient_Descent/gradient_descent.md)
+      - Python Code Doc: [`gradient_descent.md`](1_Supervised_Learning/Introduction/Gradient_Descent/gradient_descent_doc.md)
       - Python Code File: [`gradient_descent.py`](1_Supervised_Learning/Introduction/Gradient_Descent/gradient_descent.py)
     
 
