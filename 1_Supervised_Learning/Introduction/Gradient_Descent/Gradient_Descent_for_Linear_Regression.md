@@ -54,7 +54,7 @@ Gradient Descent is a key optimization technique for training **Linear Regressio
   ```
   ∂J/∂b = (1 / m) * Σ[i=1 to m] (f(x^i) - y^i)
   ```
-- This helps shift the prediction line up or down.
+- This helps shift the **prediction line up or down**.
 
 ## Why Do We Include **1/2m** in the Cost Function?
 - The **1/2** simplifies differentiation by **canceling out** extra constants.
