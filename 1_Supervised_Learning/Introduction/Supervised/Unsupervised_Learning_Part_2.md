@@ -25,11 +25,6 @@
 - **Market Segmentation (Amazon, Shopify)**: **Unsupervised Learning** - Customer groups are identified based on behavioral similarities.
 - **Medical Diagnosis (Diabetes Detection)**: **Supervised Learning** - Doctors use historical labeled data (diabetes vs. non-diabetes) to train models.
 
-## Upcoming Topics
-- **Anomaly Detection**: Learn how financial institutions like **Visa and Wells Fargo** detect fraudulent transactions by identifying outliers in spending patterns.
-- **Dimensionality Reduction**: Explore techniques like **Principal Component Analysis (PCA)** to simplify large datasets without significant loss of information.
-- **Recommender Systems**: Discover how **Netflix and YouTube** use unsupervised learning to suggest content based on viewing history.
-
 ## Practical Insights
 - **Jupyter Notebooks**: Gain hands-on experience using Jupyter Notebooks to implement unsupervised learning algorithms in real-world projects.
 - **Real-World Use Case**: How self-driving cars from **Tesla** use unsupervised learning to adapt to changing road conditions.
