@@ -16,7 +16,7 @@
   - Age of the house (X4)
 - **Model Update**:
   ```
-  f(w, b, X) = w1 * x1 + w2 * x2 + w3 * x3 + w4 * x4 + b
+  f(w, b, X) = (w1 * x1) + (w2 * x2) + (w3 * x3) + (w4 * x4) + b
   ```
 - Example: A **real estate platform** like Zillow could use these features to estimate house prices more precisely.
 - To visualize this, think of a **recipe for a cake**. Each ingredient (like flour, sugar, and eggs) contributes to the final taste. In multiple linear regression, each feature (like size, bedrooms, etc.) is like an ingredient that helps you calculate the final price of the house. The model uses a formula that combines these features with specific weights (like how much of each ingredient to use) to give you the best prediction.
@@ -51,7 +51,7 @@
   ```
   - **Dot Product**:
     ```
-    W • X = w1 * x1 + w2 * x2 + w3 * x3 + ... + wn * xn
+    W • X = (w1 * x1) + (w2 * x2) + (w3 * x3) + ... + (wn * xn)
     ```
 
 ## Real-World Applications of Multiple Linear Regression
