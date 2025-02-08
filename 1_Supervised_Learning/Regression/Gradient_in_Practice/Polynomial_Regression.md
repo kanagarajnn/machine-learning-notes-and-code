@@ -6,7 +6,7 @@ So far, we've been fitting **straight lines** to our data using linear regressio
 ## Why Polynomial Regression?
 - **Real-world data is rarely linear**: Many relationships are curved rather than straight.
 - **Captures more complex patterns**: By adding polynomial terms, we allow our model to **bend** with the data.
-- **More flexibility**: Instead of assuming a linear relationship, we can model **quadratic (x²), cubic (x³), or higher-order** relationships.
+- **More flexibility**: Instead of assuming a linear relationship, we can model **quadratic (`x^2`), cubic (`x^3`), or higher-order** relationships.
 
 ### Example: Predicting House Prices
 Imagine you’re predicting **house prices** based on **size (square feet)**:
@@ -17,29 +17,29 @@ Imagine you’re predicting **house prices** based on **size (square feet)**:
 ---
 
 ## Understanding Polynomial Regression
-Instead of just using the feature \( x \) (house size), we add **higher-order terms**:
+Instead of just using the feature `x` (house size), we add **higher-order terms**:
 
-- **Quadratic Model (x²)**:
-  \[
-  f(x) = w_1 x + w_2 x^2 + b
-  \]
-- **Cubic Model (x³)**:
-  \[
-  f(x) = w_1 x + w_2 x^2 + w_3 x^3 + b
-  \]
+- **Quadratic Model (`x^2`)**:
+```
+ f(x) = (w1 * x) + (w2 * x^2) + b
+```
+- **Cubic Model (`x^3`)**:
+```
+ f(x) = (w1 * x) + (w2 * x^2) + (w3 * x^3) + b
+```
 - **General Polynomial Model**:
-  \[
-  f(x) = w_1 x + w_2 x^2 + w_3 x^3 + ... + w_n x^n + b
-  \]
+```
+ f(x) = (w1 * x) + (w2 * x^2) + (w3 * x^3) + ... + (wn * x^n) + b
+```
 
 Each additional term helps the model fit **non-linear relationships** better.
 
 ---
 
 ## Choosing the Right Polynomial Degree
-- **Quadratic (x²)**: Good for simple curves, like parabolas.
-- **Cubic (x³)**: Useful when the trend increases, then decreases, then increases again.
-- **Higher-degree polynomials (x⁴, x⁵, …)**: Can capture more complex patterns but risk **overfitting**.
+- **Quadratic (`x^2`)**: Good for simple curves, like parabolas.
+- **Cubic (`x^3`)**: Useful when the trend increases, then decreases, then increases again.
+- **Higher-degree polynomials (`x^4`, `x^5`, …)**: Can capture more complex patterns but risk **overfitting**.
 
 ### Example: Car Speed vs. Fuel Efficiency
 - A **linear model** assumes fuel efficiency decreases at a constant rate as speed increases.
@@ -50,8 +50,8 @@ Each additional term helps the model fit **non-linear relationships** better.
 ## The Importance of Feature Scaling
 When using **polynomial regression**, feature scaling becomes **even more important**:
 - If house sizes range from **1 to 1,000 square feet**:
-  - \( x^2 \) will range from **1 to 1,000,000**.
-  - \( x^3 \) will range from **1 to 1,000,000,000**.
+  - `x^2` will range from **1 to 1,000,000**.
+  - `x^3` will range from **1 to 1,000,000,000**.
 - These large values **can cause issues for gradient descent**.
 - **Solution**: **Standardization** (scaling features to have a mean of 0 and standard deviation of 1).
 
@@ -61,8 +61,8 @@ Imagine you're comparing **salaries** (in thousands) and **height** (in centimet
 ---
 
 ## Alternative Feature Transformations
-Besides using **x² and x³**, other transformations can sometimes work better:
-- **Square Root (√x)**: Useful when the effect **decreases over time** (e.g., diminishing returns in investments).
+Besides using **`x^2` and `x^3`**, other transformations can sometimes work better:
+- **Square Root (sqrt(x))**: Useful when the effect **decreases over time** (e.g., diminishing returns in investments).
 - **Logarithm (log(x))**: Helps model data with **exponential growth** (e.g., population growth, viral trends).
 
 ---
@@ -118,9 +118,10 @@ This allows us to **fit a curve** rather than a straight line.
 - **Polynomial regression extends linear models to fit curves.**
 - **Higher-degree polynomials capture more complexity** but risk overfitting.
 - **Feature scaling is crucial** to ensure efficient training.
-- **Alternative transformations (√x, log(x))** can sometimes perform better.
+- **Alternative transformations (sqrt(x), log(x))** can sometimes perform better.
 
 ---
 
 ## Next Section
 - ### [Motivation for Classification](../../Classification/Logistic_Regression/Motivation.md)
+
