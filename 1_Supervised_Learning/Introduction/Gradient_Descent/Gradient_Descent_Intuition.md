@@ -6,15 +6,13 @@ Gradient Descent is a fundamental algorithm used in machine learning to **optimi
 ## What is Gradient Descent Doing?
 Gradient descent **iteratively updates parameters (w and b) to minimize the cost function J(w, b)**. The update formula for a single parameter looks like this:
 
-\[
- w = w - \alpha \frac{d}{dw} J(w)
-\]
+w = w - α * ((∂ / ∂w) J(w))
 
 where:
 - **w**: The parameter being updated.
 - **J(w)**: The cost function.
 - **α (alpha)**: The learning rate (step size).
-- **d/dw J(w)**: The derivative (slope) of the cost function.
+- **∂/∂w J(w)**: The derivative (slope) of the cost function.
 
 ## Real-World Analogy: Walking Down a Hill
 Imagine you are **walking down a hill** in the dark. Your goal is to reach the lowest point (the minimum of the cost function). Here’s how gradient descent relates:
