@@ -27,10 +27,10 @@ Think of **weather forecasting**. Instead of predicting the exact temperature, l
 ## The Sigmoid Function: Key to Logistic Regression
 - Logistic regression applies the **Sigmoid function** (also called the **logistic function**) to map predictions to a probability range **between 0 and 1**.
 - **Formula for Sigmoid Function:**
-  \[
-  g(z) = \frac{1}{1 + e^{-z}}
-  \]
-  - **z** is the weighted sum of inputs: \( z = wX + b \)
+  ```
+  g(z) = 1 / (1 + e^(-z))
+  ```
+  - **z** is the weighted sum of inputs: `z = wX + b`
   - **e** is the mathematical constant (~2.718)
 
 ### Behavior of the Sigmoid Function
