@@ -20,42 +20,42 @@ To solve this, we apply **feature scaling**, ensuring all inputs are on a compar
 ### **Min-Max Scaling (Normalization)**
 - **Rescales features** to a fixed range, typically **0 to 1**.
 - **Formula**:
-  \[
-  X' = \frac{X - X_{min}}{X_{max} - X_{min}}
-  \]
+  ```
+  X' = (X - X_min) / (X_max - X_min)
+  ```
 - **Example**:
   - If house sizes range from **300 to 2000**, a house with **1000 sq. ft.** is scaled as:
-    \[
-    X' = \frac{1000 - 300}{2000 - 300} = 0.41
-    \]
+    ```
+    X' = (1000 - 300) / (2000 - 300) = 0.41
+    ```
 - **Best for**: When feature distributions are bounded within a fixed range.
 
 ### **Mean Normalization**
 - Centers features around **zero** by subtracting the mean.
 - **Formula**:
-  \[
-  X' = \frac{X - \mu}{X_{max} - X_{min}}
-  \]
-  - \( \mu \) is the **mean** of the feature.
+  ```
+  X' = (X - μ) / (X_max - X_min)
+  ```
+  - `μ` is the **mean** of the feature.
 - **Example**:
-  - If the average house size (\( \mu \)) is **600 sq. ft.**, and values range from **300 to 2000**, then:
-    \[
-    X' = \frac{1000 - 600}{2000 - 300} = 0.23
-    \]
+  - If the average house size (`μ`) is **600 sq. ft.**, and values range from **300 to 2000**, then:
+    ```
+    X' = (1000 - 600) / (2000 - 300) = 0.23
+    ```
 - **Best for**: Centering features while keeping them within a range.
 
 ### **Z-Score Normalization (Standardization)**
 - Converts features to have **zero mean** and **unit variance**.
 - **Formula**:
-  \[
-  X' = \frac{X - \mu}{\sigma}
-  \]
-  - \( \sigma \) is the **standard deviation**.
+  ```
+  X' = (X - μ) / σ
+  ```
+  - `σ` is the **standard deviation**.
 - **Example**:
   - If house sizes have a **mean = 600** and **standard deviation = 450**, then:
-    \[
-    X' = \frac{1000 - 600}{450} = 0.89
-    \]
+    ```
+    X' = (1000 - 600) / 450 = 0.89
+    ```
 - **Best for**: When features follow a **Gaussian (bell curve) distribution**.
 
 ---
@@ -93,3 +93,4 @@ To solve this, we apply **feature scaling**, ensuring all inputs are on a compar
 
 ## Next Section
 - ### [Checking Gradient Descent for Convergence](Checking_Gradient_Descent_for_Convergence.md)
+
