@@ -11,7 +11,7 @@ Regularization is a **powerful technique** used in machine learning to prevent *
 - **Example**: Predicting **house prices** using a **4th-degree polynomial** may create a complex, wiggly function that **fits the training data too well** but **fails for new houses**.
 
 ### 2. Controlling Model Complexity
-- If a model’s parameters (weights \(w\)) become **too large**, it captures unnecessary patterns.
+- If a model’s parameters (weights **w**) become **too large**, it captures unnecessary patterns.
 - **Solution**: Penalizing large weights keeps the model **simpler and more generalizable**.
 - **Analogy**: Think of a **GPS route**:
   - **Without regularization**: The route follows **every minor road twist** (overfitting).
@@ -24,16 +24,16 @@ Regularization is a **powerful technique** used in machine learning to prevent *
 Regularization modifies the **cost function** by adding a penalty term to discourage large parameter values.
 
 #### Without Regularization (Linear Regression Cost Function):
-\[
-J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})^2
-\]
+```
+J(w, b) = (1 / 2m) ∑ (f(xᶦ) - yᶦ)²
+```
 
 #### With Regularization:
-\[
-J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})^2 + \frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
-\]
+```
+J(w, b) = (1 / 2m) ∑ (f(xᶦ) - yᶦ)² + (λ / 2m) ∑ wⱼ²
+```
 where:
-- **λ (lambda)**: The **regularization parameter**, controlling how much penalty is added.
+- **λ**: The **regularization parameter**, controlling how much penalty is added.
 - **w₁, w₂, …, wₙ**: Model parameters (weights).
 - **m**: Number of training examples.
 
@@ -51,17 +51,17 @@ where:
 ## Types of Regularization
 ### 1. L2 Regularization (Ridge Regression)
 - Adds the **sum of squared weights** to the cost function:
-\[
-\frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
-\]
+```
+(λ / 2m) ∑ wⱼ²
+```
 - **Effect**: Reduces large weights, making the model smoother.
 - **Example**: Used in **stock price prediction models** to prevent extreme weight values from overreacting to minor trends.
 
 ### 2. L1 Regularization (Lasso Regression)
 - Adds the **absolute sum of weights**:
-\[
-\frac{\lambda}{2m} \sum_{j=1}^{n} |w_j|
-\]
+```
+(λ / 2m) ∑ |wⱼ|
+```
 - **Effect**: Shrinks some weights **to exactly zero**, performing **feature selection**.
 - **Example**: Used in **text classification** to **remove unimportant words** from email spam detection models.
 
@@ -80,7 +80,7 @@ where:
 
 ## Summary
 - **Regularization reduces overfitting** by penalizing large weights.
-- The **λ (lambda) parameter** controls how much regularization is applied.
+- The **λ parameter** controls how much regularization is applied.
 - **L2 regularization** (Ridge) smooths weights, while **L1 regularization** (Lasso) removes unnecessary features.
 - **Choosing the right λ** is crucial to balancing model performance.
 
