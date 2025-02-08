@@ -6,8 +6,8 @@ Gradient Descent is a powerful optimization algorithm that allows machine learni
 ## How Gradient Descent Works
 Gradient descent **adjusts parameters step-by-step**, moving towards the lowest cost. The update rule for each step is:
 
-- w = w - α * (∂J(w, b) / ∂w)
-- b = b - α * (∂J(w, b) / ∂b)
+- w = w - α * ((∂/∂w) J(w, b))
+- b = b - α * ((∂/∂b) J(w, b))
 
 
 where:
