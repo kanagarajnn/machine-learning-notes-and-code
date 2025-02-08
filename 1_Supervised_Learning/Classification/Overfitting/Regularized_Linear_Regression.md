@@ -9,16 +9,16 @@ Regularization helps prevent **overfitting** in linear regression by adding a pe
 
 The regularized cost function for **linear regression** consists of two parts:
 - **Squared error term**: Measures how well the model fits the training data.
-- **Regularization term**: Penalizes large values of \( w \) to reduce overfitting.
+- **Regularization term**: Penalizes large values of **w** to reduce overfitting.
 
-\[
-J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})^2 + \frac{\lambda}{2m} \sum_{j=1}^{n} w_j^2
-\]
+```
+J(w, b) = (1 / 2m) * Σ (f(x) - y)² + (λ / 2m) * Σ w_j²
+```
 
 where:
-- \( \lambda \) (lambda) is the **regularization parameter**.
-- **Large \( \lambda \)** shrinks weights aggressively (risk of underfitting).
-- **Small \( \lambda \)** allows larger weights (risk of overfitting).
+- **λ** (lambda) is the **regularization parameter**.
+- **Large λ** shrinks weights aggressively (risk of underfitting).
+- **Small λ** allows larger weights (risk of overfitting).
 
 ### Real-World Analogy
 Imagine you're **packing a suitcase**:
@@ -32,20 +32,18 @@ Imagine you're **packing a suitcase**:
 Gradient descent adjusts parameters iteratively to **minimize the cost function**.
 
 ### **Gradient Descent Without Regularization**
-\[
- w_j = w_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)}) x_j^{(i)}
-\]
-\[
- b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})
-\]
+```
+w_j = w_j - α * (1/m) * Σ (f(x) - y) * x_j
+b = b - α * (1/m) * Σ (f(x) - y)
+```
 
 ### **Gradient Descent With Regularization**
-\[
- w_j = w_j - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)}) x_j^{(i)} + \frac{\lambda}{m} w_j \right)
-\]
+```
+w_j = w_j - α * ((1/m) * Σ (f(x) - y) * x_j + (λ/m) * w_j)
+```
 
-- The additional **\( \frac{\lambda}{m} w_j \)** term **shrinks** the weights slightly with each update.
-- **Note**: The **bias term \( b \) is NOT regularized** since it doesn’t contribute to overfitting.
+- The additional `(λ/m) * w_j` term **shrinks** the weights slightly with each update.
+- **Note**: The **bias term b is NOT regularized** since it doesn’t contribute to overfitting.
 
 ---
 
@@ -53,9 +51,9 @@ Gradient descent adjusts parameters iteratively to **minimize the cost function*
 Regularization gradually reduces large parameter values.
 
 If we rewrite the update rule:
-\[
- w_j = w_j \cdot (1 - \alpha \frac{\lambda}{m}) - \alpha \cdot \text{gradient term}
-\]
+```
+w_j = w_j * (1 - α * λ/m) - α * gradient term
+```
 
 - The term **(1 - small value)** causes **w_j to shrink slightly in every iteration**.
 - This prevents over-reliance on individual features.
@@ -66,10 +64,10 @@ If we rewrite the update rule:
 
 ---
 
-## 4. Choosing the Right \( \lambda \)
-Selecting \( \lambda \) correctly is essential:
+## 4. Choosing the Right **λ**
+Selecting **λ** correctly is essential:
 
-| **\( \lambda \) Value** | **Effect** |
+| **λ Value** | **Effect** |
 |--------------|----------------------|
 | **Too small** | Overfitting (complex model) |
 | **Too large** | Underfitting (simple model) |
@@ -106,10 +104,11 @@ for _ in range(num_iterations):
 ## Summary
 - **Regularization reduces overfitting** by shrinking large weights.
 - **Gradient descent updates remain similar**, but an additional **regularization term** is included.
-- **Choosing the right \( \lambda \) ensures the best model performance**.
+- **Choosing the right λ ensures the best model performance**.
 - Regularization is widely used in **finance, e-commerce, and self-driving technology** to prevent overfitting.
 
 ---
 
 ## Next Section
-  - ### [Regularized Logistic Regression](1_Supervised_Learning/Classification/Overfitting/Regularized_Logistic_Regression.md)
+  - ### [Regularized Logistic Regression](Regularized_Logistic_Regression.md)
+
