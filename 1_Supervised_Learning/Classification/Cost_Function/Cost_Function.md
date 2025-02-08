@@ -7,9 +7,9 @@ The **cost function** is a crucial component of logistic regression, helping us 
 
 ## Why Not Use Squared Error Cost Function?
 - In **linear regression**, the cost function is based on the **mean squared error (MSE)**:
-  \[
-  J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})^2
-  \]
+  ```
+  J(w, b) = (1 / 2m) * Σ[i=1 to m] (f(x^i) - y^i)^2
+  ```
 - This works well for **continuous outputs** but **not for classification**.
 - If we try to apply this to **logistic regression**, we get a **non-convex cost function**, meaning gradient descent may **get stuck in local minima**, leading to poor optimization.
 
@@ -20,9 +20,9 @@ Imagine you are **hiking down a mountain**. If the landscape is **smooth (convex
 
 ## The Logistic Regression Cost Function
 To ensure proper convergence, we use the **log loss (logarithmic loss) function**, which is:
-\[
-J(w, b) = - \frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(f(x^{(i)})) + (1 - y^{(i)}) \log(1 - f(x^{(i)})) \right]
-\]
+```
+J(w, b) = - (1 / m) * Σ[i=1 to m] [ y^i * log(f(x^i)) + (1 - y^i) * log(1 - f(x^i)) ]
+```
 where:
 - **f(x) = sigmoid(wX + b)** → This ensures the output is between 0 and 1.
 - **log(f(x))** → Penalizes incorrect predictions.
@@ -33,16 +33,16 @@ where:
 ## Understanding the Loss Function
 The loss function tells us how **bad** a single prediction is:
 - **If y = 1**, the loss is:
-  \[
-  L(f(x), y) = -\log(f(x))
-  \]
+  ```
+  L(f(x), y) = -log(f(x))
+  ```
   - If **f(x) is close to 1**, loss is **small** (good prediction).
   - If **f(x) is close to 0**, loss is **high** (bad prediction).
 
 - **If y = 0**, the loss is:
-  \[
-  L(f(x), y) = -\log(1 - f(x))
-  \]
+  ```
+  L(f(x), y) = -log(1 - f(x))
+  ```
   - If **f(x) is close to 0**, loss is **small** (good prediction).
   - If **f(x) is close to 1**, loss is **high** (bad prediction).
 
@@ -60,12 +60,12 @@ The loss function tells us how **bad** a single prediction is:
 ## Gradient Descent and Optimization
 - The goal is to **minimize J(w, b)** using **gradient descent**.
 - Unlike linear regression, the updates use:
-  \[
-  w = w - \alpha \frac{d}{dw} J(w, b)
-  \]
-  \[
-  b = b - \alpha \frac{d}{db} J(w, b)
-  \]
+  ```
+  w = w - α * (d/dw) J(w, b)
+  ```
+  ```
+  b = b - α * (d/db) J(w, b)
+  ```
 - This guarantees **global convergence** because the log-loss function is convex.
 
 ---
@@ -79,3 +79,4 @@ The loss function tells us how **bad** a single prediction is:
 
 ## Next Section
 - ### [Simplified Cost Function](Simplified_Cost_Function.md)
+
