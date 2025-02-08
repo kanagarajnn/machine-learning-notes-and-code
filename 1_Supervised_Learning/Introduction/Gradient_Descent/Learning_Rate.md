@@ -34,9 +34,7 @@ Imagine adjusting the **temperature of a shower**:
 - When gradient descent **reaches the minimum**, the derivative becomes **zero**.
 - The update rule:
 
-\[
- w = w - \alpha \times 0 = w
-\]
+   - w = w - α × 0 = w
 
 - This means **no further updates occur**, and gradient descent **stops automatically**.
 - **Example**: A thermostat stops adjusting temperature once it reaches the **target setting**.
