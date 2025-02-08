@@ -50,6 +50,8 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Choosing Learning Rate](1_Supervised_Learning/Regression/Gradient_in_Practice/Choosing_Learning_Rate.md)
       - [Feature Engineering](1_Supervised_Learning/Regression/Gradient_in_Practice/Feature_Engineering.md)
       - [Polynomial Regression](1_Supervised_Learning/Regression/Gradient_in_Practice/Polynomial_Regression.md)
+      - Python Code Doc: [`polynomial_regression_doc.md`](1_Supervised_Learning/Regression/Gradient_in_Practice/polynomial_regression_doc.md)
+      - Python Code File: [`polynomial_regression_code.py`](1_Supervised_Learning/Regression/Gradient_in_Practice/polynomial_regression_code.py)
         
        
 - Classification
