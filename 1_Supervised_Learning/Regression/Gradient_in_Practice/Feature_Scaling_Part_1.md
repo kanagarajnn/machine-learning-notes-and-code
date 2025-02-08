@@ -21,13 +21,13 @@ Imagine you are **racing cars** on two different roads:
 
 ## Example: Predicting House Prices with Two Features
 Consider a dataset where we predict **house prices** based on:
-- **X₁**: The size of the house (ranges from **300 to 2000** square feet).
-- **X₂**: The number of bedrooms (ranges from **0 to 5** bedrooms).
+- **x1**: The size of the house (ranges from **300 to 2000** square feet).
+- **x2**: The number of bedrooms (ranges from **0 to 5** bedrooms).
 
 ### How Feature Scaling Affects Model Weights
 - If features are **not scaled**, weight values vary greatly:
-  - **w₁ = 0.1** (small, because square feet values are large)
-  - **w₂ = 50** (large, because bedroom values are small)
+  - **w1 = 0.1** (small, because square feet values are large)
+  - **w2 = 50** (large, because bedroom values are small)
 - This imbalance causes **gradient descent to take inefficient paths**, making optimization slow.
 
 ## The Cost Function and Gradient Descent
@@ -40,28 +40,28 @@ To fix this issue, we **rescale features** so they have similar ranges:
 ### 1. **Min-Max Scaling (Normalization)**
 - Rescales values to a fixed range, typically **0 to 1**.
 - Formula:
-  \[
-  X' = \frac{X - X_{min}}{X_{max} - X_{min}}
-  \]
+  ```
+  x' = (x - x_min) / (x_max - x_min)
+  ```
 - Example:
   - A house of **1000 sq ft** in a dataset ranging from **300 to 2000** is scaled as:
-    \[
-    X' = \frac{1000 - 300}{2000 - 300} = 0.41
-    \]
+    ```
+    x' = (1000 - 300) / (2000 - 300) = 0.41
+    ```
 
 ### 2. **Standardization (Z-score Normalization)**
 - Transforms values to have **zero mean and unit variance**.
 - Formula:
-  \[
-  X' = \frac{X - \mu}{\sigma}
-  \]
-  - **μ** = mean of the feature
-  - **σ** = standard deviation
+  ```
+  x' = (x - mu) / sigma
+  ```
+  - **mu** = mean of the feature
+  - **sigma** = standard deviation
 - Example:
   - If house sizes have **mean = 1200** and **std dev = 400**, then:
-    \[
-    X' = \frac{1000 - 1200}{400} = -0.5
-    \]
+    ```
+    x' = (1000 - 1200) / 400 = -0.5
+    ```
 
 ## How Feature Scaling Helps Gradient Descent
 - **Before Scaling**: The cost function forms an **elongated shape**, making optimization inefficient.
@@ -82,3 +82,4 @@ To fix this issue, we **rescale features** so they have similar ranges:
 
 ## Next Section
 - ### [Feature Scaling Part 2](Feature_Scaling_Part_2.md)
+
