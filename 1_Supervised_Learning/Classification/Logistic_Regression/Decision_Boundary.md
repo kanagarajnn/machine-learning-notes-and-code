@@ -15,8 +15,8 @@ Logistic regression makes predictions in two steps:
    ```
    f(x) = 1 / (1 + e^(-z))
    ```
-   - If **`f(x) ≥ 0.5`**, predict **`y = 1`**.
-   - If **`f(x) < 0.5`**, predict **`y = 0`**.
+   - If **f(x) ≥ 0.5**, predict **y = 1**.
+   - If **f(x) < 0.5**, predict **y = 0**.
 
 ---
 
@@ -26,7 +26,9 @@ Logistic regression makes predictions in two steps:
   ```
   wX + b = 0
   ```
-- This forms a **straight line** in the case of two features.
+- At this point:
+  - The **sigmoid function outputs 0.5**, which means the model is **unsure**.
+  - The model **cannot confidently assign the input** to **class 0 or class 1**.
 
 ### Example: Email Spam Classification
 - If an email’s spam probability is **above 50%**, classify it as spam.
@@ -41,20 +43,20 @@ Logistic regression makes predictions in two steps:
 - Example: Predicting if a customer will buy a product based on their age and income.
 
 ### 2. **Non-Linear Decision Boundary**
-- If we introduce **polynomial features** (e.g., x^2 or x^3), we can get **curved boundaries**.
+- If we introduce **polynomial features** (e.g., x² or x³), we can get **curved boundaries**.
 - Example: Predicting whether an image contains a dog or cat based on complex pixel patterns.
 
 ---
 
 ## Example: Logistic Regression with Two Features
-Consider a dataset where we classify data points based on **two features, x1 and x2**.
+Consider a dataset where we classify data points based on **two features, x₁ and x₂**.
 - Red crosses (❌) represent **positive examples (y = 1)**.
 - Blue circles (🔵) represent **negative examples (y = 0)**.
 - The decision boundary is the point where:
   ```
   (w1 * x1) + (w2 * x2) + b = 0
   ```
-  If **`w1 = 1, w2 = 1, and b = -3`**, the decision boundary is:
+  If **w₁ = 1, w₂ = 1, and b = -3**, the decision boundary is:
   ```
   x1 + x2 = 3
   ```
@@ -71,7 +73,7 @@ Consider a dataset where we classify data points based on **two features, x1 and
   - Example: Predicting if a tumor is malignant based on its **size and roundness**.
 
 ### 2. **Higher-Order Boundaries**
-- Adding **interaction terms** like **`x1 * x2`** allows for **elliptical** or more complex shapes.
+- Adding **interaction terms** like **x₁x₂** allows for **elliptical** or more complex shapes.
 - Example: Identifying fraud in transactions based on **transaction amount and frequency**.
 
 ---
@@ -86,4 +88,3 @@ Consider a dataset where we classify data points based on **two features, x1 and
 
 ## Next Section
 - ### [Cost Function for Logistic Regression](../Cost_Function/Cost_Function.md)
-
