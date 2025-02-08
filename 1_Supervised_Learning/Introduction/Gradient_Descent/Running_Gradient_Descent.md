@@ -6,13 +6,13 @@ Gradient Descent is a key optimization algorithm that iteratively updates parame
 ## Step-by-Step Execution of Gradient Descent
 1. **Initializing Parameters**
    - In this demonstration, we initialize parameters as:
-     
-     \( w = -0.1, \quad b = 900 \)
-     
+     ```
+     w = -0.1,  b = 900
+     ```
    - This gives the initial function:
-     
-     \( f(x) = -0.1x + 900 \)
-     
+     ```
+     f(x) = -0.1x + 900
+     ```
    - At this point, the **line does not fit the data well**.
 
 2. **First Step of Gradient Descent**
@@ -34,14 +34,14 @@ Gradient Descent is a key optimization algorithm that iteratively updates parame
 Batch Gradient Descent computes updates by considering **all training examples at each step**.
 
 ### Weight Update Formula
-\[
- w := w - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i) x^i
-\]
+```
+ w := w - α (1/m) ∑[i=1 to m] (f(x^i) - y^i) x^i
+```
 
 ### Bias Update Formula
-\[
- b := b - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i)
-\]
+```
+ b := b - α (1/m) ∑[i=1 to m] (f(x^i) - y^i)
+```
 
 These formulas ensure a **smooth descent** toward the minimum.
 
@@ -60,4 +60,4 @@ These formulas ensure a **smooth descent** toward the minimum.
 
 ---
 ## Next Section
-- ### [Mutliple Features](../../Regression/Multiple_Linear_Regression/Mutliple_Features.md)
+- ### [Multiple Features](../../Regression/Multiple_Linear_Regression/Multiple_Features.md)
