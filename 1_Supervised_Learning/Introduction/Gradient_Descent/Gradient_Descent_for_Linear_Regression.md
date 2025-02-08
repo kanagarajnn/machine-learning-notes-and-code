@@ -4,20 +4,33 @@
 Gradient Descent is a key optimization technique for training **Linear Regression models**. In this guide, we break down its implementation using the **squared error cost function** and derive key formulas in an intuitive way with real-world examples.
 
 ## Key Components of Linear Regression with Gradient Descent
-1. **Linear Regression Model:**
-   - Predicts values using the equation:
-     \[ f(x) = w x + b \]
+- **Linear Regression Model:**
+  - Predicts values using the equation:
+    ```
+    f(x) = w * x + b
+    ```
 
-2. **Squared Error Cost Function:**
-   - Measures the difference between predicted and actual values:
-     \[ J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} (f(x^i) - y^i)^2 \]
-   - The goal is to **minimize J(w, b)** by optimizing **w and b**.
+- **Squared Error Cost Function:**
+  - Measures the difference between predicted and actual values:
+    The cost function for linear regression:
+    ```
+    J(w, b) = (1 / 2m) * Σ[i=1 to m] (f(x^i) - y^i)^2
+    ```
+    Where:
+    - `J(w, b)` represents the cost.
+    - `m` is the number of training examples.
+    - `f(x^i)` is the predicted value for the i-th training example.
+    - `y^i` is the actual value for the i-th training example.
 
-3. **Gradient Descent Algorithm:**
-   - Updates parameters iteratively using:
-     \[ w := w - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i) x^i \]
-     \[ b := b - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i) \]
-   - Where **α** is the learning rate.
+  - The goal is to **minimize J(w, b)** by optimizing **w and b**.
+
+- **Gradient Descent Algorithm:**
+  - Updates parameters iteratively using:
+    ```
+    w := w - α * (1 / m) * Σ[i=1 to m] (f(x^i) - y^i) * x^i  
+    b := b - α * (1 / m) * Σ[i=1 to m] (f(x^i) - y^i)
+    ```
+    Where `α` is the learning rate.
 
 ## Real-World Analogy: Navigating a Park
 - Imagine you're walking in a park with hills and valleys.
@@ -30,13 +43,17 @@ Gradient Descent is a key optimization technique for training **Linear Regressio
 ### Derivative of the Cost Function w.r.t. **w**:
 - Measures how much **w** should change to reduce cost.
 - The formula is:
-  \[ \frac{\partial J}{\partial w} = \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i) x^i \]
+  ```
+  ∂J/∂w = (1 / m) * Σ[i=1 to m] (f(x^i) - y^i) * x^i
+  ```
 - This formula ensures that updates **proportionally adjust w**.
 
 ### Derivative of the Cost Function w.r.t. **b**:
 - Measures how much **b** should change to reduce cost.
 - The formula is:
-  \[ \frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^{m} (f(x^i) - y^i) \]
+  ```
+  ∂J/∂b = (1 / m) * Σ[i=1 to m] (f(x^i) - y^i)
+  ```
 - This helps shift the prediction line up or down.
 
 ## Why Do We Include **1/2m** in the Cost Function?
