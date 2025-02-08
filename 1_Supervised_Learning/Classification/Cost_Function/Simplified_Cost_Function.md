@@ -6,16 +6,16 @@ In logistic regression, we use a **loss function** to measure how well our model
 ---
 
 ## Simplified Loss Function for Logistic Regression
-In **binary classification**, the target label \( y \) can only be **0 or 1**. The logistic loss function is given by:
-\[
-L(f(x), y) = -y \log(f(x)) - (1 - y) \log(1 - f(x))
-\]
+In **binary classification**, the target label `y` can only be **0 or 1**. The logistic loss function is given by:
+```
+L(f(x), y) = -y log(f(x)) - (1 - y) log(1 - f(x))
+```
 where:
-- **\( f(x) \)** is the predicted probability that \( y = 1 \).
-- If **\( y = 1 \)**, the loss simplifies to **\( -\log(f(x)) \)**.
-- If **\( y = 0 \)**, the loss simplifies to **\( -\log(1 - f(x)) \)**.
+- **`f(x)`** is the predicted probability that `y = 1`.
+- If **`y = 1`**, the loss simplifies to **`-log(f(x))`**.
+- If **`y = 0`**, the loss simplifies to **`-log(1 - f(x))`**.
 
-This compact equation is **mathematically equivalent** to writing separate cases for \( y = 1 \) and \( y = 0 \), making it easier to implement.
+This compact equation is **mathematically equivalent** to writing separate cases for `y = 1` and `y = 0`, making it easier to implement.
 
 ### Real-World Analogy
 Think of a **weather forecast** predicting the probability of rain tomorrow.
@@ -27,11 +27,11 @@ Think of a **weather forecast** predicting the probability of rain tomorrow.
 
 ## Cost Function for Logistic Regression
 The **cost function** is the **average loss** across all training examples:
-\[
-J(w, b) = \frac{1}{m} \sum_{i=1}^{m} \left[ -y^{(i)} \log(f(x^{(i)})) - (1 - y^{(i)}) \log(1 - f(x^{(i)})) \right]
-\]
+```
+J(w, b) = (1/m) * sum[ -y(i) log(f(x(i))) - (1 - y(i)) log(1 - f(x(i))) ]
+```
 where:
-- \( m \) is the total number of training examples.
+- `m` is the total number of training examples.
 - The negative sign ensures that better predictions result in **lower cost values**.
 - The cost function is **convex**, meaning gradient descent will efficiently converge to a minimum.
 
@@ -41,7 +41,7 @@ This cost function is derived from **maximum likelihood estimation (MLE)**, a st
 ---
 
 ## Visualizing Cost and Decision Boundaries
-- A well-trained logistic regression model **minimizes the cost function** by adjusting the parameters \( w \) and \( b \).
+- A well-trained logistic regression model **minimizes the cost function** by adjusting the parameters `w` and `b`.
 - The **better the decision boundary**, the lower the cost function value.
 - Example: In a plot comparing different decision boundaries:
   - A **blue decision boundary** (better fit) has **lower cost**.
