@@ -6,9 +6,9 @@ Now that we've explored **gradient descent**, **multiple linear regression**, an
 ## Recap: Multiple Linear Regression in Vector Form
 Instead of treating each weight **w** as a separate parameter, we collect them into a **vector w**. This allows us to express our prediction function more concisely:
 
-\[
- f(w, b, X) = w \cdot X + b
-\]
+```
+ f(w, b, X) = w . X + b
+```
 
 where:
 - **w**: A vector of weights (one for each feature)
@@ -18,25 +18,24 @@ where:
 Using **vectorized notation** helps optimize computations and simplifies implementation in machine learning frameworks like NumPy.
 
 ## Gradient Descent for Multiple Linear Regression
-The cost function \( J(w, b) \) measures the difference between the predicted and actual values. To minimize this cost function, gradient descent updates **w** and **b** iteratively:
+The cost function `J(w, b)` measures the difference between the predicted and actual values. To minimize this cost function, gradient descent updates **w** and **b** iteratively:
 
-\[
- w_j := w_j - \alpha \frac{d}{dw_j} J(w, b)
-\]
+```
+ wj := wj - α * (d/dwj) J(w, b)
 
-\[
- b := b - \alpha \frac{d}{db} J(w, b)
-\]
+ b := b - α * (d/db) J(w, b)
+```
 
-where **\( \alpha \)** is the learning rate.
+where **α** is the learning rate.
 
 ### Understanding the Update Process
 - The formula for **one feature** remains similar when extended to **multiple features**.
-- The **error term** (\( f(X) - Y \)) is computed across all training examples.
-- Each **w** is updated individually for all features **X_1, X_2, ... X_n**.
+- The **error term** `(f(X) - Y)` is computed across all training examples.
+- Each **w** is updated individually for all features **x1, x2, ..., xn**.
 
 ## Implementation in Python (Vectorized Form)
 Instead of using a loop, we can **vectorize** gradient descent to optimize performance:
+
 ```python
 import numpy as np
 
@@ -49,22 +48,32 @@ def gradient_descent(X, y, w, b, alpha, num_iterations):
         b -= (alpha / m) * np.sum(errors)
     return w, b
 ```
-- **np.dot(X, w) + b** computes predictions efficiently.
-- **np.dot(X.T, errors)** computes the gradient for all weights simultaneously.
+
+- `np.dot(X, w) + b` computes predictions efficiently.
+- `np.dot(X.T, errors)` computes the gradient for all weights simultaneously.
 - This approach scales well with large datasets.
 
 ## Alternative Approach: The Normal Equation
 Gradient descent is not the only way to find **w** and **b**. The **Normal Equation** provides an explicit solution for linear regression:
 
-\[
- w = (X^T X)^{-1} X^T Y
-\]
+```
+ w = (X^T X)^-1 X^T Y
+```
+
+```
+X: Matrix of input features.
+X^T: Transpose of the matrix X.
+(X^T X)^-1: Inverse of the product of X^T and X.
+X^T Y: Dot product of the transpose of X and the target vector Y.
+```
 
 ### Pros and Cons of the Normal Equation
 - **Advantage**: No need for iterative optimization.
-- **Disadvantage**: Computationally expensive for large feature sets.
+- **Disadvantage**:
+   - **Computational Complexity**: Calculating the inverse of the matrix (X^T X) can be computationally expensive for large datasets or high-dimensional feature sets.
+   - **Numerical Stability**: If (X^T X) is not invertible (e.g., if features are linearly dependent), the equation fails.
 
-Most machine learning libraries (e.g., Scikit-Learn’s `LinearRegression`) use the **Normal Equation** behind the scenes when solving for regression coefficients.
+Most machine learning libraries (e.g., **Scikit-Learn’s `LinearRegression`**) use the **Normal Equation** behind the scenes when solving for regression coefficients.
 
 ## Real-World Applications
 - **Finance**: Predicting stock prices using multiple economic indicators.
@@ -81,3 +90,4 @@ Most machine learning libraries (e.g., Scikit-Learn’s `LinearRegression`) use 
 ---
 ## Next Section
   - ### [Feature Scaling Part 1](../Gradient_in_Practice/Feature_Scaling_Part_1.md)
+
