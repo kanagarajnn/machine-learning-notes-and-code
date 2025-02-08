@@ -15,24 +15,24 @@ Imagine you're **cooking a dish**. If you only use **basic ingredients**, the re
 
 ## Example: Predicting House Prices
 Let’s consider an example where we predict **house prices** based on land size:
-- **Feature 1 (X₁)**: Width of the land (**frontage**)
-- **Feature 2 (X₂)**: Depth of the land
+- **Feature 1 (x1)**: Width of the land (**frontage**)
+- **Feature 2 (x2)**: Depth of the land
 
 A simple model would be:
-\[
- f(X) = w_1X_1 + w_2X_2 + b
-\]
+```
+f(x) = (w1 * x1) + (w2 * x2) + b
+```
 However, this model assumes that **width and depth separately** determine price.
 
 ### Introducing a New Feature
-Instead of using **width and depth separately**, we can create a **new feature (X₃) = area of the land**:
-\[
- X_3 = X_1 \times X_2
-\]
+Instead of using **width and depth separately**, we can create a **new feature (x3) = area of the land**:
+```
+x3 = x1 * x2
+```
 Now, our updated model is:
-\[
- f(X) = w_1X_1 + w_2X_2 + w_3X_3 + b
-\]
+```
+f(x) = (w1 * x1) + (w2 * x2) + (w3 * x3) + b
+```
 This allows the model to determine whether **width, depth, or total area** is the best predictor of price.
 
 ---
@@ -42,7 +42,7 @@ Feature engineering involves **transforming or creating new features** to help t
 
 ### 1. **Mathematical Transformations**
 - **Creating new features from existing ones** (e.g., squaring a feature to capture nonlinear trends).
-- Example: Instead of using speed alone, self-driving car algorithms might use **speed²** to detect braking patterns.
+- Example: Instead of using speed alone, self-driving car algorithms might use **speed squared** to detect braking patterns.
 
 ### 2. **Combining Features**
 - **Merging two or more related features** to improve model performance.
@@ -82,3 +82,4 @@ Feature engineering involves **transforming or creating new features** to help t
 
 ## Next Section
 - ### [Polynomial Regression](Polynomial_Regression.md)
+
