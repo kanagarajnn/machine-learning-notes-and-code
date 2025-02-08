@@ -49,8 +49,6 @@
 
 ## Next Steps
 - The next topic explores **unsupervised learning**, where models learn from **unlabeled data**.
-- Learners will understand how clustering and pattern detection work in machine learning.
-- **Real-World Case Study**: Customer segmentation in e-commerce platforms like **Amazon and Shopify** using unsupervised learning.
 
 ---
 ## Next Section
