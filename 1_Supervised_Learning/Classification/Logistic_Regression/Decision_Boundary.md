@@ -8,24 +8,24 @@ A **decision boundary** is the line or curve that separates different classes in
 ## How Logistic Regression Makes Predictions
 Logistic regression makes predictions in two steps:
 1. **Compute the linear combination of inputs**:
-   \[
+   ```
    z = wX + b
-   \]
+   ```
 2. **Apply the Sigmoid function**:
-   \[
-   f(x) = \frac{1}{1 + e^{-z}}
-   \]
-   - If **f(x) ≥ 0.5**, predict **y = 1**.
-   - If **f(x) < 0.5**, predict **y = 0**.
+   ```
+   f(x) = 1 / (1 + e^(-z))
+   ```
+   - If **`f(x) ≥ 0.5`**, predict **`y = 1`**.
+   - If **`f(x) < 0.5`**, predict **`y = 0`**.
 
 ---
 
 ## Understanding the Decision Boundary
 - The decision boundary is the region **where the model is uncertain** (where the probability of classifying as 0 or 1 is 50%).
 - This happens when:
-  \[
+  ```
   wX + b = 0
-  \]
+  ```
 - This forms a **straight line** in the case of two features.
 
 ### Example: Email Spam Classification
@@ -41,23 +41,23 @@ Logistic regression makes predictions in two steps:
 - Example: Predicting if a customer will buy a product based on their age and income.
 
 ### 2. **Non-Linear Decision Boundary**
-- If we introduce **polynomial features** (e.g., x² or x³), we can get **curved boundaries**.
+- If we introduce **polynomial features** (e.g., x^2 or x^3), we can get **curved boundaries**.
 - Example: Predicting whether an image contains a dog or cat based on complex pixel patterns.
 
 ---
 
 ## Example: Logistic Regression with Two Features
-Consider a dataset where we classify data points based on **two features, x₁ and x₂**.
+Consider a dataset where we classify data points based on **two features, x1 and x2**.
 - Red crosses (❌) represent **positive examples (y = 1)**.
 - Blue circles (🔵) represent **negative examples (y = 0)**.
 - The decision boundary is the point where:
-  \[
-  w_1 x_1 + w_2 x_2 + b = 0
-  \]
-  If **w₁ = 1, w₂ = 1, and b = -3**, the decision boundary is:
-  \[
-  x_1 + x_2 = 3
-  \]
+  ```
+  (w1 * x1) + (w2 * x2) + b = 0
+  ```
+  If **`w1 = 1, w2 = 1, and b = -3`**, the decision boundary is:
+  ```
+  x1 + x2 = 3
+  ```
   This represents a **straight line** separating the two classes.
 
 ---
@@ -65,13 +65,13 @@ Consider a dataset where we classify data points based on **two features, x₁ a
 ## More Complex Decision Boundaries
 ### 1. **Quadratic Boundaries**
 - If we introduce **squared terms**, we can model **circular** decision boundaries:
-  \[
-  x_1^2 + x_2^2 = 1
-  \]
+  ```
+  x1^2 + x2^2 = 1
+  ```
   - Example: Predicting if a tumor is malignant based on its **size and roundness**.
 
 ### 2. **Higher-Order Boundaries**
-- Adding **interaction terms** like **x₁x₂** allows for **elliptical** or more complex shapes.
+- Adding **interaction terms** like **`x1 * x2`** allows for **elliptical** or more complex shapes.
 - Example: Identifying fraud in transactions based on **transaction amount and frequency**.
 
 ---
@@ -86,3 +86,4 @@ Consider a dataset where we classify data points based on **two features, x₁ a
 
 ## Next Section
 - ### [Cost Function for Logistic Regression](../Cost_Function/Cost_Function.md)
+
