@@ -39,7 +39,7 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 
 - Regression with Multiple Input Variables
   - Multiple Linear Regression
-      - [Mutliple Features](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Mutliple_Features.md)
+      - [Multiple Features](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Multiple_Features.md)
       - [Vectorization Part 1](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Vectorization_Part_1.md)
       - [Vectorization Part 2](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Vectorization_Part_2.md)
       - [Gradient Descent for Multiple Linear Regression](1_Supervised_Learning/Regression/Multiple_Linear_Regression/Gradient_Descent_for_Multiple_Linear_Regression.md)
