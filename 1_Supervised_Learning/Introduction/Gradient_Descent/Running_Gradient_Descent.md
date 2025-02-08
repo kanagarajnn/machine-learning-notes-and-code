@@ -60,4 +60,4 @@ These formulas ensure a **smooth descent** toward the minimum.
 
 ---
 ## Next Section
-- ### [Multiple Features](../../Regression/Multiple_Linear_Regression/Multiple_Features.md)
+- ### Python Code Doc: [`gradient_descent.md`](gradient_descent_doc.md)
