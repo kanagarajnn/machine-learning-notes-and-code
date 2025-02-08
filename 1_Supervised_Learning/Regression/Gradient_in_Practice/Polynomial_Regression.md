@@ -123,5 +123,5 @@ This allows us to **fit a curve** rather than a straight line.
 ---
 
 ## Next Section
-- ### [Motivation for Classification](../../Classification/Logistic_Regression/Motivation.md)
+- ### Python Code Doc: [`polynomial_regression_doc.md`](polynomial_regression_doc.md)
 
