@@ -6,18 +6,15 @@ Gradient Descent is a powerful optimization algorithm that allows machine learni
 ## How Gradient Descent Works
 Gradient descent **adjusts parameters step-by-step**, moving towards the lowest cost. The update rule for each step is:
 
-\[
- w = w - \alpha \frac{d}{dw} J(w, b)
-\]
-\[
- b = b - \alpha \frac{d}{db} J(w, b)
-\]
+- w = w - α * (∂J(w, b) / ∂w)
+- b = b - α * (∂J(w, b) / ∂b)
+
 
 where:
 - **w and b** are model parameters.
 - **J(w, b)** is the cost function (measures error).
 - **α (alpha)** is the learning rate (controls step size).
-- **d/dw and d/db** are the derivatives (gradients) of the cost function.
+- **∂/∂w and ∂/∂b** are the derivatives (gradients) of the cost function.
 
 ## Real-World Analogy: Finding the Best Route
 Imagine you are **hiking down a mountain** in foggy weather. You can’t see the final destination, but you can feel the **slope of the ground beneath your feet**:
