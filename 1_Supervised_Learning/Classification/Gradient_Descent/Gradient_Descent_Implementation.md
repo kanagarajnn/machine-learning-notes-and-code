@@ -1,24 +1,22 @@
 # Gradient Descent for Logistic Regression
 
 ## Introduction
-To train a **logistic regression model**, we need to find the best values for the **parameters** \( w \) and \( b \) that minimize the **cost function**. The optimization technique used for this is **gradient descent**.
+To train a **logistic regression model**, we need to find the best values for the **parameters** `w` and `b` that minimize the **cost function**. The optimization technique used for this is **gradient descent**.
 
 ---
 
 ## How Gradient Descent Works
-- **Objective**: Find the optimal values of **w** and **b** that minimize the **cost function \( J(w, b) \)**.
+- **Objective**: Find the optimal values of **w** and **b** that minimize the **cost function `J(w, b)`**.
 - **Approach**: Iteratively update **w** and **b** in the direction that reduces the cost.
 - **Mathematical Update Rule**:
-  \[
-  w_j = w_j - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)}) x_j^{(i)}
-  \]
-  \[
-  b = b - \alpha \frac{1}{m} \sum_{i=1}^{m} (f(x^{(i)}) - y^{(i)})
-  \]
+  ```
+  w_j = w_j - α (1/m) ∑ (f(x) - y) x_j
+  b = b - α (1/m) ∑ (f(x) - y)
+  ```
   where:
-  - \( \alpha \) is the **learning rate** (step size for updates).
-  - \( f(x) \) is the **sigmoid function applied to the weighted input**.
-  - \( m \) is the number of training examples.
+  - `α` is the **learning rate** (step size for updates).
+  - `f(x)` is the **sigmoid function applied to the weighted input**.
+  - `m` is the number of training examples.
 
 ---
 
@@ -77,3 +75,4 @@ After running gradient descent, we can visualize:
 
 ## Next Section
 - ### [Problem of Overfitting](../Overfitting/Problem_of_Overfitting.md)
+
