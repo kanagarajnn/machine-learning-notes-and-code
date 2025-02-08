@@ -6,15 +6,16 @@ Gradient Descent is a powerful optimization algorithm that allows machine learni
 ## How Gradient Descent Works
 Gradient descent **adjusts parameters step-by-step**, moving towards the lowest cost. The update rule for each step is:
 
-- w = w - α * ((∂/∂w) J(w, b))
-- b = b - α * ((∂/∂b) J(w, b))
-
+```
+w = w - α * ((∂/∂w) J(w, b))
+b = b - α * ((∂/∂b) J(w, b))
+```
 
 where:
 - **w and b** are model parameters.
 - **J(w, b)** is the cost function (measures error).
 - **α (alpha)** is the learning rate (controls step size).
-- **∂/∂w and ∂/∂b** are the derivatives (gradients) of the cost function.
+- **∂/∂w and ∂/∂b** are the partial derivatives (gradients) of the cost function.
 
 ## Real-World Analogy: Finding the Best Route
 Imagine you are **hiking down a mountain** in foggy weather. You can’t see the final destination, but you can feel the **slope of the ground beneath your feet**:
@@ -46,20 +47,20 @@ _Example: If Amazon were optimizing product recommendations, updating features o
 
 ## Implementation in Code
 ### Correct Implementation (Simultaneous Update)
-```python
+```
 # Compute new values first
-temp_w = w - alpha * gradient_w
-temp_b = b - alpha * gradient_b
+temp_w = w - α * gradient_w
+temp_b = b - α * gradient_b
 
 # Update parameters simultaneously
 w = temp_w
 b = temp_b
 ```
 ### Incorrect Implementation (Sequential Update)
-```python
+```
 # Updating parameters one at a time (incorrect approach)
-w = w - alpha * gradient_w  # Updates w first
-b = b - alpha * gradient_b  # Uses updated w for b update
+w = w - α * gradient_w  # Updates w first
+b = b - α * gradient_b  # Uses updated w for b update
 ```
 This incorrect method leads to **incorrect learning behavior**.
 
