@@ -54,10 +54,6 @@
   - **Financial forecasting (Goldman Sachs)**: Uses deep learning due to large, complex financial data.
   - **Weather prediction (NOAA)**: Uses regression-based models due to high variability in atmospheric conditions.
 
-## Next Steps in Learning
-- The next topic explores **classification**, the second major type of supervised learning.
-- Learners will understand how classification problems differ from regression problems and how models like **decision trees and neural networks** are used in real-world applications.
-
 ---
 ## Next Section
 - ### [Supervised Machine Learning Part 2](Supervised_Machine_Learning_Part_2.md)
