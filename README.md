@@ -126,8 +126,8 @@ This repository is continuously updated as I progress through the Machine Learni
       - [x] Regression with Multiple Input Variables
         - [x] Multiple Linear Regression
         - [x] Gradient Descent in Practice       
-      - [ ] Classification
-        - [ ] Classification with Logistic Regression
-        - [ ] Cost Function for  Logistic Regression
-        - [ ] Gradient Descent for Logistic Regression
-        - [ ] The Problem of Overfitting
+      - [x] Classification
+        - [x] Classification with Logistic Regression
+        - [x] Cost Function for  Logistic Regression
+        - [x] Gradient Descent for Logistic Regression
+        - [x] The Problem of Overfitting
