@@ -117,4 +117,4 @@ Understanding how forward propagation works **under the hood** is valuable for d
 
 ---
 ## Next Section
-- ### [Lab: Coffee Roasting NumPy](Coffee_Roasting_NumPy.md)
+- ### [Lab: Coffee Roasting NumPy](Lab_Coffee_Roasting_NumPy.md)
