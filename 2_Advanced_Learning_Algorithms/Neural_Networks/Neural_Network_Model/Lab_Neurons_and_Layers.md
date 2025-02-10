@@ -1,8 +1,5 @@
-# Optional Lab - Neurons and Layers
+# Lab - Neurons and Layers
 In this lab we will explore the inner workings of neurons/units and layers. In particular, the lab will draw parallels to the models you have mastered in Course 1, the regression/linear model and the logistic model. The lab will introduce Tensorflow and demonstrate how these models are implemented in that framework.
-<figure>
-   <img src="./images/C2_W1_NeuronsAndLayers.png"  style="width:540px;height:200px;" >
-</figure>
 
 
 ## Packages
@@ -50,7 +47,8 @@ plt.show()
 
 ### Regression/Linear Model 
 The function implemented by a neuron with no activation is the same as in Course 1, linear regression:
-$$ f_{\mathbf{w},b}(x^{(i)}) = \mathbf{w}\cdot x^{(i)} + b \tag{1}$$
+```f[w, b](x^(i)) = w ⋅ x^(i) + b```
+
 
 
 
@@ -149,8 +147,10 @@ plt_linear(X_train, Y_train, prediction_tf, prediction_np)
 
 ## Neuron with Sigmoid activation
 The function implemented by a neuron/unit with a sigmoid activation is the same as in Course 1, logistic  regression:
-$$ f_{\mathbf{w},b}(x^{(i)}) = g(\mathbf{w}x^{(i)} + b) \tag{2}$$
-where $$g(x) = sigmoid(x)$$ 
+- ```f[w, b](x^(i)) = g(w * x^(i) + b)```
+
+where ```g(x) = sigmoid(x)```
+
 
 Let's set $w$ and $b$ to some known values and check the model.
 
@@ -273,15 +273,7 @@ plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg)
 
 The shading above reflects the output of the sigmoid which varies from 0 to 1.
 
-# Congratulations!
-You built a very simple neural network and have explored the similarities of a neuron to the linear and logistic regression from Course 1.
+---
 
-
-```python
-
-```
-
-
-```python
-
-```
+## Next Section
+- ### [Inference in Code](../TensorFlow/Inference_in_Code.md)
