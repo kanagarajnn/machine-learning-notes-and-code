@@ -91,8 +91,16 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
        - [Building a Neural Network](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Building_a_Neural_Network.md)
        - [Lab: Coffee Roasting in Tensorflow](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Lab_Coffee_Roasting_in_Tensorflow.md)
    - Neural Network Implementation in Python
+     - [Forward Propagation in Single Layer](2_Advanced_Learning_Algorithms/Neural_Networks/Python_Implementation/Forward_Propagation.md)
+     - [Implementation of Forward Propagation](2_Advanced_Learning_Algorithms/Neural_Networks/Python_Implementation/Implementation_Details.md)
+     - [Lab: Coffee Roasting NumPy](2_Advanced_Learning_Algorithms/Neural_Networks/Python_Implementation/Lab_Coffee_Roasting_NumPy.md)
    - Speculations of AGI
+     - [Speculations of AGI](2_Advanced_Learning_Algorithms/Neural_Networks/Speculations_of_AGI/Speculations_of_AGI.md) 
    - Vectorization
+      - [Vectorization Implementation](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Vectorization_Implementation.md)
+      - [Matrix Multiplicatoin](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplicatoin.md)
+      - [Matrix Multiplicatoin Rules](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplicatoin_Rules.md)
+      - [Matrix Multiplicatoin Code](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplicatoin_Code.md)
             
 - Neural Network Training
   - Neural Network Training
