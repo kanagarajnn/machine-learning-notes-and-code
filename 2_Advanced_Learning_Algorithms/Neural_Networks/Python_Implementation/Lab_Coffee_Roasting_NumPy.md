@@ -193,4 +193,4 @@ You have built a small neural network in NumPy.
 Hopefully this lab revealed the fairly simple and familiar functions which make up a layer in a neural network. 
 
 ## Next Section
-### - 
+- ### [Speculations of AGI](../Speculations_of_AGI/Speculations_of_AGI.md) 
