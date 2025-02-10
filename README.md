@@ -86,6 +86,10 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
        - [Inference Predictions](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/Inference_Predictions.md)
        - [Lab: Neurons and Layers](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/Lab_Neurons_and_Layers.md)
    - TensorFlow Implementation
+       - [Inference in Code](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Inference_in_Code.md)
+       - [Data in TensorFlow](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Data_in_TensorFlow.md)
+       - [Building a Neural Network](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Building_a_Neural_Network.md)
+       - [Lab: Coffee Roasting in Tensorflow](2_Advanced_Learning_Algorithms/Neural_Networks/TensorFlow/Lab_Coffee_Roasting_in_Tensorflow.md)
    - Neural Network Implementation in Python
    - Speculations of AGI
    - Vectorization
