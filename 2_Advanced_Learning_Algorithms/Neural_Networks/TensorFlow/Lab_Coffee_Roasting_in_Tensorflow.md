@@ -1,8 +1,5 @@
-# Optional Lab - Simple Neural Network
+# Lab - Simple Neural Network
 In this lab we will build a small neural network using Tensorflow.
-   <center> <img  src="./images/C2_W1_CoffeeRoasting.png" width="400" />   <center/>
-
-
 
 ```python
 import numpy as np
@@ -81,7 +78,6 @@ print(Xt.shape, Yt.shape)
 ## Tensorflow Model
 
 ### Model
-   <center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>  
 Let's build the "Coffee Roasting Network" described in lecture. There are two layers with sigmoid activations as shown below:
 
 
@@ -282,7 +278,6 @@ print("W2:\n", W2, "\nb2:", b2)
 
 
 ### Predictions
-<img align="left" src="./images/C2_W1_RoastingDecision.PNG"     style=" width:380px; padding: 10px 20px; " >
 
 Once you have a trained model, you can then use it to make predictions. Recall that the output of our model is a probability. In this case, the probability of a good roast. To make a decision, one must apply the probability to a threshold. In this case, we will use 0.5
 
@@ -380,3 +375,7 @@ plt_network(X,Y,netf)
 ## Congratulations!
 You have built a small neural network in Tensorflow. 
 The network demonstrated the ability of neural networks to handle complex decisions by dividing the decisions between multiple units.
+
+---
+## Next Section
+- ### [Forward Propagation in Single Layer](../Python_Implementation/Forward_Propagation.md)
