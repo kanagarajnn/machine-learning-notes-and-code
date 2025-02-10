@@ -74,10 +74,39 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 ---
 
 ### 2. Advanced Learning Algorithms
-- [Neural Networks](2_Advanced_Learning_Algorithms/Neural_Networks.md)
-- [Neural Network Training](2_Advanced_Learning_Algorithms/NN_Training.md)
-- [Decision Trees](2_Advanced_Learning_Algorithms/Decision_Trees.md)
-- [Code Samples](2_Advanced_Learning_Algorithms/Code_Samples/)
+- Neural Networks
+   - Neural Networks Intuition
+       - [Welcome](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Networks_Intuition/Welcome.md)
+       - [Neurons and Brain](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Networks_Intuition/Neurons_and_Brain.md)
+       - [Demand Prediction](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Networks_Intuition/Demand_Prediction.md)
+       - [Recognizing Images](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Networks_Intuition/Recognizing_Images.md)
+   - Neural Network Model
+       - [Neural Network Layer](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/Neural_Network_Layer.md)
+       - [More Complex Neural Networks](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/More_Complex_Neural_Networks.md)
+       - [Inference Predictions](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/Inference_Predictions.md)
+       - [Lab: Neurons and Layers](2_Advanced_Learning_Algorithms/Neural_Networks/Neural_Network_Model/Lab_Neurons_and_Layers.md)
+   - TensorFlow Implementation
+   - Neural Network Implementation in Python
+   - Speculations of AGI
+   - Vectorization
+            
+- Neural Network Training
+  - Neural Network Training
+  - Activation Functions
+  - Multiclass Classification
+  - Additional Neural Network Concepts
+  - Back Propagation
+    
+- Advice for Applying ML
+  - Advice for Applying ML
+  - Bias and Variance
+  - Machine Learning Development Process
+  - Skewed Datasets
+    
+- Decision Trees
+  - Decision Trees
+  - Decision Tree Learning
+  - Tree Ensembles
 
 ---
 
@@ -131,3 +160,28 @@ This repository is continuously updated as I progress through the Machine Learni
         - [x] Cost Function for  Logistic Regression
         - [x] Gradient Descent for Logistic Regression
         - [x] The Problem of Overfitting
+
+  2. Advanced Learning Algorithms
+       - [ ] Neural Networks
+         - [ ] Neural Networks Intuition
+         - [ ] Neural Network Model
+         - [ ] TensorFlow Implementation
+         - [ ] Neural Network Implementation in Python
+         - [ ] Speculations of AGI
+         - [ ] Vectorization
+       - [ ] Neural Network Training
+         - [ ]  Neural Network Training
+         - [ ]  Activation Functions
+         - [ ]  Multiclass Classification
+         - [ ]  Additional Neural Network Concepts
+         - [ ]  Back Propagation
+       - [ ] Advice for Applying ML
+         - [ ] Advice for Applying ML
+         - [ ] Bias and Variance
+         - [ ] Machine Learning Development Process
+         - [ ] Skewed Datasets
+       - [ ] Decision Trees
+         - [ ]  Decision Trees
+         - [ ]  Decision Tree Learning
+         - [ ]  Tree Ensembles
+              
