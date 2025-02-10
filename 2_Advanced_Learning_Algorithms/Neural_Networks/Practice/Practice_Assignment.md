@@ -279,7 +279,6 @@ The neural network you will use in this assignment is shown in the figure below.
     - Recall that our inputs are pixel values of digit images.
     - Since the images are of size $20\times20$, this gives us $400$ inputs  
     
-<img src="images/C2_W1_Assign1.PNG" width="500" height="400">
 
 - The parameters have dimensions that are sized for a neural network with $25$ units in layer 1, $15$ units in layer 2 and $1$ output unit in layer 3. 
 
@@ -607,9 +606,6 @@ plt.show()
 ### 2.5 NumPy Model Implementation (Forward Prop in NumPy)
 As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network. 
 
-<img src="images/C2_W1_dense2.PNG" width="600" height="450">
-
-
 <a name="ex02"></a>
 ### Exercise 2
 
@@ -813,7 +809,6 @@ plt.show()
 The optional lectures described vector and matrix operations that can be used to speed the calculations.
 Below describes a layer operation that computes the output for all units in a layer on a given input example:
 
-<img src="images/C2_W1_VectorMatrix.PNG" width="600" height="450">
 
 We can demonstrate this using the examples `X` and the `W1`,`b1` parameters above. We use `np.matmul` to perform the matrix multiply. Note, the dimensions of x and W must be compatible as shown in the diagram above.
 
@@ -830,7 +825,6 @@ print(a1.shape)
 
 You can take this a step further and compute all the units for all examples in one Matrix-Matrix operation.
 
-<img src="images/C2_W1_MatrixMatrix.PNG" width="600" height="450">
 The full operation is $\mathbf{Z}=\mathbf{XW}+\mathbf{b}$. This will utilize NumPy broadcasting to expand $\mathbf{b}$ to $m$ rows. If this is unfamiliar, a short tutorial is provided at the end of the notebook.
 
 <a name="ex03"></a>
@@ -1047,17 +1041,6 @@ If these conditions are not met, a ValueError: operands could not be broadcast t
 
 Here are some examples:
 
-<figure>
-    <center> <img src="./images/C2_W1_Assign1_BroadcastIndexes.PNG"  alt='missing' width="400"  ><center/>
-    <figcaption>Calculating Broadcast Result shape</figcaption>
-<figure/>
-
-The graphic below describes expanding dimensions. Note the red text below:
-
-<figure>
-    <center> <img src="./images/C2_W1_Assign1_Broadcasting.gif"  alt='missing' width="600"  ><center/>
-    <figcaption>Broadcast notionally expands arguments to match for element wise operations</figcaption>
-<figure/>
 
 The graphic above shows NumPy expanding the arguments to match before the final operation. Note that this is a notional description. The actual mechanics of NumPy operation choose the most efficient implementation.
 
@@ -1093,10 +1076,6 @@ print(f"(a * b).shape: {(a * b).shape}, \na * b = \n{a * b}")
      [15]]
 
 
-<figure>
-    <img src="./images/C2_W1_Assign1_VectorAdd.PNG"  alt='missing' width="740" >
-    <center><figcaption><b>Row-Column Element-Wise Operations</b></figcaption></center>
-<figure/>
 
 
 ```python
@@ -1121,10 +1100,6 @@ print(f"(a + b).shape: {(a + b).shape}, \na + b = \n{a + b}")
 
 
 This is the scenario in the dense layer you built above. Adding a 1-D vector $b$ to a (m,j) matrix.
-<figure>
-    <img src="./images/C2_W1_Assign1_BroadcastMatrix.PNG"  alt='missing' width="740" >
-    <center><figcaption><b>Matrix + 1-D Vector</b></figcaption></center>
-<figure/>
 
 <details>
   <summary><font size="2" color="darkgreen"><b>Please click here if you want to experiment with any of the non-graded code.</b></font></summary>
@@ -1142,5 +1117,4 @@ This is the scenario in the dense layer you built above. Adding a 1-D vector $b$
     </ol>
     <p> Here's a short demo of how to do the steps above: 
         <br>
-        <img src="https://lh3.google.com/u/0/d/14Xy_Mb17CZVgzVAgq7NCjMVBvSae3xO1" align="center" alt="unlock_cells.gif">
 </details>
