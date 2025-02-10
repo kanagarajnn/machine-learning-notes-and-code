@@ -102,5 +102,5 @@ This function works for **any number of neurons** in Layer 1 without manually wr
 ---
 
 ## Next Section
-- ### [Implementation of Forward Propagation](Implementation.md)
+- ### [Implementation of Forward Propagation](Implementation_Details.md)
 
