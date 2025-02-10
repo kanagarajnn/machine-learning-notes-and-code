@@ -101,6 +101,9 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Matrix Multiplication](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplication.md)
       - [Matrix Multiplication Rules](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplication_Rules.md)
       - [Matrix Multiplication Code](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplication_Code.md)
+    - Practice
+      - [Practice_Assignment](2_Advanced_Learning_Algorithms/Neural_Networks/Practice/Practice_Assignment.md)
+      
             
 - Neural Network Training
   - Neural Network Training
