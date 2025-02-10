@@ -1,8 +1,4 @@
-# Optional Lab - Simple Neural Network
-In this lab, we will build a small neural network using Numpy. It will be the same "coffee roasting" network you implemented in Tensorflow.
-   <center> <img  src="./images/C2_W1_CoffeeRoasting.png" width="400" />   <center/>
-
-
+# Lab - Simple Neural Network in Python (NumPy)
 
 ```python
 import numpy as np
@@ -60,12 +56,9 @@ print(f"Duration    Max, Min post normalization: {np.max(Xn[:,1]):0.2f}, {np.min
 
 
 ## Numpy Model (Forward Prop in NumPy)
-<center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>  
 Let's build the "Coffee Roasting Network" described in lecture. There are two layers with sigmoid activations.
 
 As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network. 
-
-<img src="images/C2_W1_dense3.png" width="600" height="450">
 
 In the first optional lab, you constructed a neuron in NumPy and in Tensorflow and noted their similarity. A layer simply contains multiple neurons/units. As described in lecture, one can utilize a for loop to visit each unit (`j`) in the layer and perform the dot product of the weights for that unit (`W[:,j]`) and sum the bias for the unit (`b[j]`) to form `z`. An activation function `g(z)` can then be applied to that result. Let's try that below to build a "dense layer" subroutine.
 
@@ -123,8 +116,6 @@ b2_tmp = np.array( [15.41] )
 ```
 
 ### Predictions
-<img align="left" src="./images/C2_W1_RoastingDecision.PNG"     style=" width:380px; padding: 10px 20px; " >
-
 Once you have a trained model, you can then use it to make predictions. Recall that the output of our model is a probability. In this case, the probability of a good roast. To make a decision, one must apply the probability to a threshold. In this case, we will use 0.5
 
 Let's start by writing a routine similar to Tensorflow's `model.predict()`. This will take a matrix $X$ with all $m$ examples in the rows and make a prediction by running the model.
@@ -200,3 +191,6 @@ plt_network(X,Y,netf)
 ## Congratulations!
 You have built a small neural network in NumPy. 
 Hopefully this lab revealed the fairly simple and familiar functions which make up a layer in a neural network. 
+
+## Next Section
+### - 
