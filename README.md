@@ -146,27 +146,6 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 - [Reinforcement Learning](3_Unsupervised_Learning/Reinforcement_Learning.md)
 - [Code Samples](3_Unsupervised_Learning/Code_Samples/)
 
----
-
-### Additional Sections
-- [Lab Exercises](Lab_Exercises/)
-  - [Python and Jupyter Notebooks](Lab_Exercises/Python_and_Jupyter_Notebooks.ipynb)
-  - [Regression Lab](Lab_Exercises/Regression_Lab.ipynb)
-  - [Classification Lab](Lab_Exercises/Classification_Lab.ipynb)
-
-- [Final Projects](Final_Projects/)
-  - [Recommender System Project](Final_Projects/Project1_Recommender_System.ipynb)
-  - [Reinforcement Learning Project](Final_Projects/Project2_Reinforcement_Learning.ipynb)
-
-- [Resources](Resources.md): Books, articles, and additional materials
-- [Glossary](Glossary.md): Key ML terms and definitions
-- [Summary of Formulas](Summary_Formulas.md): Quick reference for ML formulas
-
----
-
-## Tools & Libraries
-- Python, NumPy, Pandas, Matplotlib, Scikit-Learn, TensorFlow
-- Google Colab & Jupyter Notebooks for running code
 
 ---
 
