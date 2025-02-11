@@ -72,3 +72,7 @@ model.compile(
 
 By using Adam, your neural network can **learn faster and generalize better**, making it a go-to choice for machine learning practitioners!
 
+---
+
+## Next Section:
+- ### [Additional Layer Types](Additional_Layer_Types.md)
