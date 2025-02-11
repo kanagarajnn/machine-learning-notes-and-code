@@ -88,3 +88,6 @@ model = Sequential([
 
 By mastering convolutional layers, you can build **powerful AI systems** for real-world applications like **autonomous driving, medical imaging, and speech recognition**!
 
+---
+## Next Section
+- ### [Derivative](../../Back_Propagation/Derivative.md)
