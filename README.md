@@ -113,9 +113,18 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
     - [Alternatives to Sigmoid Function](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Alternatives_to_Sigmoid.md)
     - [Choosing Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Choosing_Activation.md)
     - [Why Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Why_Activation.md)
-    - [Lab_ReLU Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Lab_ReLU_Activation.md)
+    - [Lab: ReLU Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Lab_ReLU_Activation.md)
   - Multiclass Classification
+    - [Multiclass](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Multiclass.md)
+    - [Softmax](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Softmax.md)
+    - [Neural Net with Softmax](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Softmax_NN.md)
+    - [Softmax Implementation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Softmax_Implementation.md)
+    - [Classification with Multiple Outputs](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Multiple_Outputs.md)
+    - [Lab: Softmax](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Lab_Softmax.md)
+    - [Lab: Multiclass](2_Advanced_Learning_Algorithms/Neural_Network_Training/Multiclass_Classification/Lab_Multiclass.md)
   - Additional Neural Network Concepts
+    - [Advanced Optimization](2_Advanced_Learning_Algorithms/Neural_Network_Training/Additional_Concepts/Advanced_Optimization.md) 
+    - [Additional Layer Types](2_Advanced_Learning_Algorithms/Neural_Network_Training/Additional_Concepts/Additional_Layer_Types.md)
   - Back Propagation
     
 - Advice for Applying ML
@@ -183,16 +192,16 @@ This repository is continuously updated as I progress through the Machine Learni
         - [x] The Problem of Overfitting
 
   2. Advanced Learning Algorithms
-       - [ ] Neural Networks
-         - [ ] Neural Networks Intuition
-         - [ ] Neural Network Model
-         - [ ] TensorFlow Implementation
-         - [ ] Neural Network Implementation in Python
-         - [ ] Speculations of AGI
-         - [ ] Vectorization
-       - [ ] Neural Network Training
-         - [ ]  Neural Network Training
-         - [ ]  Activation Functions
+       - [x] Neural Networks
+         - [x] Neural Networks Intuition
+         - [x] Neural Network Model
+         - [x] TensorFlow Implementation
+         - [x] Neural Network Implementation in Python
+         - [x] Speculations of AGI
+         - [x] Vectorization
+       - [x] Neural Network Training
+         - [x]  Neural Network Training
+         - [x]  Activation Functions
          - [ ]  Multiclass Classification
          - [ ]  Additional Neural Network Concepts
          - [ ]  Back Propagation
