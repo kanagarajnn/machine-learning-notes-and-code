@@ -1,4 +1,4 @@
-# Implementing Softmax in a Neural Network
+# Softmax in Neural Networks
 
 ## Overview
 - Softmax regression can be incorporated into the **output layer** of a neural network for **multiclass classification**.
@@ -112,4 +112,4 @@ By implementing Softmax in neural networks, you can build **robust classifiers**
 
 ---
 ## Next Section
-- ### [Classification with Multiple Outputs](Multiple_Outputs.md)
+- ### [Softmax Implementation](Softmax_Implementation.md)
