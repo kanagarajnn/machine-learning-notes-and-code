@@ -102,12 +102,18 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
       - [Matrix Multiplication Rules](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplication_Rules.md)
       - [Matrix Multiplication Code](2_Advanced_Learning_Algorithms/Neural_Networks/Vectorization/Matrix_Multiplication_Code.md)
     - Practice
-      - [Practice_Assignment](2_Advanced_Learning_Algorithms/Neural_Networks/Practice/Practice_Assignment.md)
+      - [Practice Assignment](2_Advanced_Learning_Algorithms/Neural_Networks/Practice/Practice_Assignment.md)
       
             
 - Neural Network Training
   - Neural Network Training
+    - [TensorFlow Implementation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Training/TensorFlow_Implementation.md)
+    - [Neural Networks Training Details](2_Advanced_Learning_Algorithms/Neural_Network_Training/Training/Training_Details.md)
   - Activation Functions
+    - [Alternatives to Sigmoid Function](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Alternatives_to_Sigmoid.md)
+    - [Choosing Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Choosing_Activation.md)
+    - [Why Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Why_Activation.md)
+    - [Lab_ReLU Activation](2_Advanced_Learning_Algorithms/Neural_Network_Training/Activation/Lab_ReLU_Activation.md)
   - Multiclass Classification
   - Additional Neural Network Concepts
   - Back Propagation
