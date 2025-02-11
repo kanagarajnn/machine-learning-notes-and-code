@@ -141,10 +141,6 @@ This repository contains structured **Machine Learning notes**, **hands-on codin
 ---
 
 ### 3. Unsupervised Learning & Reinforcement Learning
-- [Clustering](3_Unsupervised_Learning/Clustering.md)
-- [Recommender Systems](3_Unsupervised_Learning/Recommender_Systems.md)
-- [Reinforcement Learning](3_Unsupervised_Learning/Reinforcement_Learning.md)
-- [Code Samples](3_Unsupervised_Learning/Code_Samples/)
 
 
 ---
