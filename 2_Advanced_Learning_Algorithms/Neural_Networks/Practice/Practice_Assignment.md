@@ -2,6 +2,8 @@
 
 In this exercise, you will use a neural network to recognize the hand-written digits zero and one.
 
+## Next Section
+- ### [TensorFlow Implementation](../../Neural_Network_Training/Training/TensorFlow_Implementation.md)
 
 # Outline
 - [ 1 - Packages ](#1)
@@ -1118,3 +1120,8 @@ This is the scenario in the dense layer you built above. Adding a 1-D vector $b$
     <p> Here's a short demo of how to do the steps above: 
         <br>
 </details>
+
+
+## Next Section
+- ### [TensorFlow Implementation](../../Neural_Network_Training/Training/TensorFlow_Implementation.md)
+
