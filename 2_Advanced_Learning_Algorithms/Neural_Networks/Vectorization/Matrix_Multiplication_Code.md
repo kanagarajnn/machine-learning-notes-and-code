@@ -121,4 +121,5 @@ By mastering **vectorized implementations**, AI practitioners can build powerful
 
 ---
 ## Next Section
-- ### [To be added soon]()
+- ### [Practice Assignment](../Practice/Practice_Assignment.md)
+- ### [TensorFlow Implementation](../../Neural_Network_Training/Training/TensorFlow_Implementation.md)
